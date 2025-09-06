@@ -3,900 +3,1200 @@
         "name": "8 Ball",
         "image": "8 Ball.webp",
         "status": false,
-        "id": "j_8_ball"
+        "id": "j_8_ball",
+        "description": "<div class=\"joker-description\"><span class=\"c-green\">1 in 4</span> chance for each<br>played <span class=\"c-attention\">8</span> to create a<br><span class=\"c-tarot\">Tarot</span> card when scored<br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Abstract Joker",
         "image": "Abstract Joker.webp",
         "status": false,
-        "id": "j_abstract"
+        "id": "j_abstract",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+3</span> Mult for<br>each <span class=\"c-attention\">Joker</span> card<br><span class=\"c-inactive\">(Currently </span><span class=\"c-red\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Acrobat",
         "image": "Acrobat.webp",
         "status": false,
-        "id": "j_acrobat"
+        "id": "j_acrobat",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3 </span> Mult on <span class=\"c-attention\">final</span><br><span class=\"c-attention\">hand</span> of round</div>",
+        "rarity": 2
     },
     {
         "name": "Ancient Joker",
         "image": "Ancient Joker.webp",
         "status": false,
-        "id": "j_ancient"
+        "id": "j_ancient",
+        "description": "<div class=\"joker-description\">Each played card with<br><span class=\"variable\">[random suit]</span> suit gives<br><span class=\"x-mult c-red c-white\"> X1.5 </span> Mult when scored,<br><span class=\"size-0-8\">suit changes at end of round</span></div>",
+        "rarity": 3
     },
     {
         "name": "Arrowhead",
         "image": "Arrowhead.webp",
         "status": false,
-        "id": "j_arrowhead"
+        "id": "j_arrowhead",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-spades\">Spade</span> suit give<br><span class=\"c-chips\">+50</span> Chips when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Astronomer",
         "image": "Astronomer.webp",
         "status": false,
-        "id": "j_astronomer"
+        "id": "j_astronomer",
+        "description": "<div class=\"joker-description\">All <span class=\"c-planet\">Planet</span> cards and<br><span class=\"c-planet\">Celestial Packs</span> in<br>the shop are <span class=\"c-attention\">free</span></div>",
+        "rarity": 2
     },
     {
         "name": "Banner",
         "image": "Banner.webp",
         "status": false,
-        "id": "j_banner"
+        "id": "j_banner",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+30</span> Chips for<br>each remaining<br><span class=\"c-attention\">discard</span></div>",
+        "rarity": 1
     },
     {
         "name": "Baron",
         "image": "Baron.webp",
         "status": false,
-        "id": "j_baron"
+        "id": "j_baron",
+        "description": "<div class=\"joker-description\">Each <span class=\"c-attention\">King</span><br>held in hand<br>gives <span class=\"x-mult c-red c-white\"> X1.5 </span> Mult</div>",
+        "rarity": 3
     },
     {
         "name": "Baseball Card",
         "image": "Baseball Card.webp",
         "status": false,
-        "id": "j_baseball"
+        "id": "j_baseball",
+        "description": "<div class=\"joker-description\"><span class=\"c-green\">Uncommon</span> Jokers<br>each give <span class=\"x-mult c-red c-white\"> X1.5 </span> Mult</div>",
+        "rarity": 3
     },
     {
         "name": "Blackboard",
         "image": "Blackboard.webp",
         "status": false,
-        "id": "j_blackboard"
+        "id": "j_blackboard",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3 </span> Mult if all<br>cards held in hand<br>are <span class=\"c-spades\">Spades</span> or <span class=\"c-clubs\">Clubs</span></div>",
+        "rarity": 2
     },
     {
         "name": "Bloodstone",
         "image": "Bloodstone.webp",
         "status": false,
-        "id": "j_bloodstone"
+        "id": "j_bloodstone",
+        "description": "<div class=\"joker-description\"><span class=\"c-green\">1 in 2</span> chance for<br>played cards with<br><span class=\"c-hearts\">Heart</span> suit to give<br><span class=\"x-mult c-red c-white\"> X1.5 </span> Mult when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Blue Joker",
         "image": "Blue Joker.webp",
         "status": false,
-        "id": "j_blue_joker"
+        "id": "j_blue_joker",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+2</span> Chips for each<br>remaining card in <span class=\"c-attention\">deck</span><br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">+104</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Blueprint",
         "image": "Blueprint.webp",
         "status": false,
-        "id": "j_blueprint"
+        "id": "j_blueprint",
+        "description": "<div class=\"joker-description\">Copies ability of<br><span class=\"c-attention\">Joker</span> to the right</div>",
+        "rarity": 3
     },
     {
         "name": "Bootstraps",
         "image": "Bootstraps.webp",
         "status": false,
-        "id": "j_bootstraps"
+        "id": "j_bootstraps",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+2</span> Mult for every<br><span class=\"c-money\">$5</span> you have<br><span class=\"c-inactive\">(Currently </span><span class=\"c-mult\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Brainstorm",
         "image": "Brainstorm.webp",
         "status": false,
-        "id": "j_brainstorm"
+        "id": "j_brainstorm",
+        "description": "<div class=\"joker-description\">Copies the ability<br>of leftmost <span class=\"c-attention\">Joker</span></div>",
+        "rarity": 3
     },
     {
         "name": "Bull",
         "image": "Bull.webp",
         "status": false,
-        "id": "j_bull"
+        "id": "j_bull",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+2</span> Chips for<br>each <span class=\"c-money\">$1</span> you have<br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">+0</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Burglar",
         "image": "Burglar.webp",
         "status": false,
-        "id": "j_burglar"
+        "id": "j_burglar",
+        "description": "<div class=\"joker-description\">When <span class=\"c-attention\">Blind</span> is selected,<br>gain <span class=\"c-blue\">+3</span> Hands and<br><span class=\"c-attention\">lose all discards</span></div>",
+        "rarity": 2
     },
     {
         "name": "Burnt Joker",
         "image": "Burnt Joker.webp",
         "status": false,
-        "id": "j_burnt"
+        "id": "j_burnt",
+        "description": "<div class=\"joker-description\">Upgrade the level of<br>the first <span class=\"c-attention\">discarded</span><br>poker hand each round</div>",
+        "rarity": 3
     },
     {
         "name": "Business Card",
         "image": "Business Card.webp",
         "status": false,
-        "id": "j_business"
+        "id": "j_business",
+        "description": "<div class=\"joker-description\">Played <span class=\"c-attention\">face</span> cards have<br>a <span class=\"c-green\">1 in 2</span> chance to<br>give <span class=\"c-money\">$2</span> when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Campfire",
         "image": "Campfire.webp",
         "status": false,
-        "id": "j_campfire"
+        "id": "j_campfire",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\">X0.25</span> Mult<br>for each card <span class=\"c-attention\">sold</span>, resets<br>when <span class=\"c-attention\">Boss Blind</span> is defeated<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 3
     },
     {
         "name": "Canio",
         "image": "Canio.webp",
         "status": false,
-        "id": "j_caino"
+        "id": "j_caino",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X1 </span> Mult<br>when a <span class=\"c-attention\">face</span> card<br>is destroyed<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 4
     },
     {
         "name": "Card Sharp",
         "image": "Card Sharp.webp",
         "status": false,
-        "id": "j_card_sharp"
+        "id": "j_card_sharp",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3.0 </span> Mult if played<br><span class=\"c-attention\">poker hand</span> has already<br>been played this round</div>",
+        "rarity": 2
     },
     {
         "name": "Cartomancer",
         "image": "Cartomancer.webp",
         "status": false,
-        "id": "j_cartomancer"
+        "id": "j_cartomancer",
+        "description": "<div class=\"joker-description\">Create a <span class=\"c-tarot\">Tarot</span> card<br>when <span class=\"c-attention\">Blind</span> is selected<br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Castle",
         "image": "Castle.webp",
         "status": false,
-        "id": "j_castle"
+        "id": "j_castle",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"c-chips\">+3</span> Chips<br>per discarded <span class=\"variable\">[random owned suit]</span> card,<br>suit changes every round<br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">+0</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Cavendish",
         "image": "Cavendish.webp",
         "status": false,
-        "id": "j_cavendish"
+        "id": "j_cavendish",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3.0 </span> Mult<br><span class=\"c-green\">1 in 1000</span> chance this<br>card is destroyed<br>at end of round</div>",
+        "rarity": 1
     },
     {
         "name": "Ceremonial Dagger",
         "image": "Ceremonial Dagger.webp",
         "status": false,
-        "id": "j_ceremonial"
+        "id": "j_ceremonial",
+        "description": "<div class=\"joker-description\">When <span class=\"c-attention\">Blind</span> is selected,<br>destroy Joker to the right<br>and permanently add <span class=\"c-attention\">double</span><br>its sell value to this <span class=\"c-red\">Mult</span><br><span class=\"c-inactive\">(Currently </span><span class=\"c-mult\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Certificate",
         "image": "Certificate.webp",
         "status": false,
-        "id": "j_certificate"
+        "id": "j_certificate",
+        "description": "<div class=\"joker-description\">When round begins,<br>add a random <span class=\"c-attention\">playing</span><br><span class=\"c-attention\">card</span> with a random<br><span class=\"c-attention\">seal</span> to your hand</div>",
+        "rarity": 2
     },
     {
         "name": "Chaos the Clown",
         "image": "Chaos the Clown.webp",
         "status": false,
-        "id": "j_chaos"
+        "id": "j_chaos",
+        "description": "<div class=\"joker-description\"><span class=\"c-attention\">1</span> free <span class=\"c-green\">Reroll</span><br>per shop</div>",
+        "rarity": 1
     },
     {
         "name": "Chicot",
         "image": "Chicot.webp",
         "status": false,
-        "id": "j_chicot"
+        "id": "j_chicot",
+        "description": "<div class=\"joker-description\">Disables effect of<br>every <span class=\"c-attention\">Boss Blind</span></div>",
+        "rarity": 4
     },
     {
         "name": "Clever Joker",
         "image": "Clever Joker.webp",
         "status": false,
-        "id": "j_clever"
+        "id": "j_clever",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+80</span> Chips if played<br>hand contains<br>a <span class=\"c-attention\">Two Pair</span></div>",
+        "rarity": 1
     },
     {
         "name": "Cloud 9",
         "image": "Cloud 9.webp",
         "status": false,
-        "id": "j_cloud_9"
+        "id": "j_cloud_9",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$1</span> for each<br><span class=\"c-attention\">9</span> in your <span class=\"c-attention\">full deck</span><br>at end of round<br><span class=\"c-inactive\">(Currently <span class=\"c-money\">$4</span></span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Constellation",
         "image": "Constellation.webp",
         "status": false,
-        "id": "j_constellation"
+        "id": "j_constellation",
+        "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"x-mult c-red c-white\"> X0.1 </span> Mult every time<br>a <span class=\"c-planet\">Planet</span> card is used<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Crafty Joker",
         "image": "Crafty Joker.webp",
         "status": false,
-        "id": "j_crafty"
+        "id": "j_crafty",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+80</span> Chips if played<br>hand contains<br>a <span class=\"c-attention\">Flush</span></div>",
+        "rarity": 1
     },
     {
         "name": "Crazy Joker",
         "image": "Crazy Joker.webp",
         "status": false,
-        "id": "j_crazy"
+        "id": "j_crazy",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+12</span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Straight</span></div>",
+        "rarity": 1
     },
     {
         "name": "Credit Card",
         "image": "Credit Card.webp",
         "status": false,
-        "id": "j_credit_card"
+        "id": "j_credit_card",
+        "description": "<div class=\"joker-description\">Go up to<br><span class=\"c-red\">-$20</span> in debt</div>",
+        "rarity": 1
     },
     {
         "name": "Delayed Gratification",
         "image": "Delayed Gratification.webp",
         "status": false,
-        "id": "j_delayed_grat"
+        "id": "j_delayed_grat",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$2</span> per <span class=\"c-attention\">discard</span> if<br>no discards are used<br>by end of the round</div>",
+        "rarity": 1
     },
     {
         "name": "Devious Joker",
         "image": "Devious Joker.webp",
         "status": false,
-        "id": "j_devious"
+        "id": "j_devious",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+100</span> Chips if played<br>hand contains<br>a <span class=\"c-attention\">Straight</span></div>",
+        "rarity": 1
     },
     {
         "name": "Diet Cola",
         "image": "Diet Cola.webp",
         "status": false,
-        "id": "j_diet_cola"
+        "id": "j_diet_cola",
+        "description": "<div class=\"joker-description\">Sell this card to<br>create a free<br><span class=\"c-attention\">Double Tag</span></div>",
+        "rarity": 2
     },
     {
         "name": "DNA",
         "image": "DNA.webp",
         "status": false,
-        "id": "j_dna"
+        "id": "j_dna",
+        "description": "<div class=\"joker-description\">If <span class=\"c-attention\">first hand</span> of round<br>has only <span class=\"c-attention\">1</span> card, add a<br>permanent copy to deck<br>and draw it to <span class=\"c-attention\">hand</span></div>",
+        "rarity": 3
     },
     {
         "name": "Driver's License",
         "image": "Driver's License.webp",
         "status": false,
-        "id": "j_drivers_license"
+        "id": "j_drivers_license",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3 </span> Mult if you have<br>at least <span class=\"c-attention\">16</span> Enhanced<br>cards in your full deck<br><span class=\"c-inactive\">(Currently </span><span class=\"c-attention\">0</span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 3
     },
     {
         "name": "Droll Joker",
         "image": "Droll Joker.webp",
         "status": false,
-        "id": "j_droll"
+        "id": "j_droll",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+10</span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Flush</span></div>",
+        "rarity": 1
     },
     {
         "name": "Drunkard",
         "image": "Drunkard.webp",
         "status": false,
-        "id": "j_drunkard"
+        "id": "j_drunkard",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+1</span> discard<br>each round</div>",
+        "rarity": 1
     },
     {
         "name": "Dusk",
         "image": "Dusk.webp",
         "status": false,
-        "id": "j_dusk"
+        "id": "j_dusk",
+        "description": "<div class=\"joker-description\">Retrigger all played<br>cards in <span class=\"c-attention\">final</span><br><span class=\"c-attention\">hand</span> of round</div>",
+        "rarity": 2
     },
     {
         "name": "Egg",
         "image": "Egg.webp",
         "status": false,
-        "id": "j_egg"
+        "id": "j_egg",
+        "description": "<div class=\"joker-description\">Gains <span class=\"c-money\">$3</span> of<br><span class=\"c-attention\">sell value</span> at<br>end of round</div>",
+        "rarity": 1
     },
     {
         "name": "Erosion",
         "image": "Erosion.webp",
         "status": false,
-        "id": "j_erosion"
+        "id": "j_erosion",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+4</span> Mult for each<br>card below <span class=\"c-attention\">52</span><br>in your full deck<br><span class=\"c-inactive\">(Currently </span><span class=\"c-red\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Even Steven",
         "image": "Even Steven.webp",
         "status": false,
-        "id": "j_even_steven"
+        "id": "j_even_steven",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-attention\">even</span> rank give<br><span class=\"c-mult\">+4</span> Mult when scored<br><span class=\"c-inactive\">(10, 8, 6, 4, 2)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Faceless Joker",
         "image": "Faceless Joker.webp",
         "status": false,
-        "id": "j_faceless"
+        "id": "j_faceless",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$5</span> if <span class=\"c-attention\">3</span> or<br>more <span class=\"c-attention\">face cards</span><br>are discarded<br>at the same time</div>",
+        "rarity": 1
     },
     {
         "name": "Fibonacci",
         "image": "Fibonacci.webp",
         "status": false,
-        "id": "j_fibonacci"
+        "id": "j_fibonacci",
+        "description": "<div class=\"joker-description\">Each played <span class=\"c-attention\">Ace</span>,<br><span class=\"c-attention\">2</span>, <span class=\"c-attention\">3</span>, <span class=\"c-attention\">5</span>, or <span class=\"c-attention\">8</span> gives<br><span class=\"c-mult\">+8</span> Mult when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Flash Card",
         "image": "Flash Card.webp",
         "status": false,
-        "id": "j_flash"
+        "id": "j_flash",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"c-mult\">+2</span> Mult<br>per <span class=\"c-attention\">reroll</span> in the shop<br><span class=\"c-inactive\">(Currently </span><span class=\"c-mult\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Flower Pot",
         "image": "Flower Pot.webp",
         "status": false,
-        "id": "j_flower_pot"
+        "id": "j_flower_pot",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3 </span> Mult if poker<br>hand contains a<br><span class=\"c-diamonds\">Diamond</span> card, <span class=\"c-clubs\">Club</span> card,<br><span class=\"c-hearts\">Heart</span> card, and <span class=\"c-spades\">Spade</span> card</div>",
+        "rarity": 2
     },
     {
         "name": "Fortune Teller",
         "image": "Fortune Teller.webp",
         "status": false,
-        "id": "j_fortune_teller"
+        "id": "j_fortune_teller",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+1</span> Mult per <span class=\"c-purple\">Tarot</span><br>card used this run<br><span class=\"c-inactive\">(Currently </span><span class=\"c-red\">+0</span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Four Fingers",
         "image": "Four Fingers.webp",
         "status": false,
-        "id": "j_four_fingers"
+        "id": "j_four_fingers",
+        "description": "<div class=\"joker-description\">All <span class=\"c-attention\">Flushes</span> and<br><span class=\"c-attention\">Straights</span> can be<br>made with <span class=\"c-attention\">4</span> cards</div>",
+        "rarity": 2
     },
     {
         "name": "Gift Card",
         "image": "Gift Card.webp",
         "status": false,
-        "id": "j_gift"
+        "id": "j_gift",
+        "description": "<div class=\"joker-description\">Add <span class=\"c-money\">$1</span> of <span class=\"c-attention\">sell value</span><br>to every <span class=\"c-attention\">Joker</span> and<br><span class=\"c-attention\">Consumable</span> card at<br>end of round</div>",
+        "rarity": 2
     },
     {
         "name": "Glass Joker",
         "image": "Glass Joker.webp",
         "status": false,
-        "id": "j_glass"
+        "id": "j_glass",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X0.75 </span> Mult<br>for every <span class=\"c-attention\">Glass Card</span><br>that is destroyed<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Gluttonous Joker",
         "image": "Gluttonous Joker.webp",
         "status": false,
-        "id": "j_gluttenous_joker"
+        "id": "j_gluttenous_joker",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-clubs\">Clubs</span> suit give<br><span class=\"c-mult\">+3</span> Mult when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Golden Joker",
         "image": "Golden Joker.webp",
         "status": false,
-        "id": "j_golden"
+        "id": "j_golden",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$4</span> at<br>end of round</div>",
+        "rarity": 1
     },
     {
         "name": "Golden Ticket",
         "image": "Golden Ticket.webp",
         "status": false,
-        "id": "j_ticket"
+        "id": "j_ticket",
+        "description": "<div class=\"joker-description\">Played <span class=\"c-attention\">Gold</span> cards<br>earn <span class=\"c-money\">$4</span> when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Greedy Joker",
         "image": "Greedy Joker.webp",
         "status": false,
-        "id": "j_greedy_joker"
+        "id": "j_greedy_joker",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-diamonds\">Diamonds</span> suit give<br><span class=\"c-mult\">+3</span> Mult when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Green Joker",
         "image": "Green Joker.webp",
         "status": false,
-        "id": "j_green_joker"
+        "id": "j_green_joker",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+1</span> Mult per hand played<br><span class=\"c-mult\">-1</span> Mult per discard<br><span class=\"c-inactive\">(Currently </span><span class=\"c-mult\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Gros Michel",
         "image": "Gros Michel.webp",
         "status": false,
-        "id": "j_gros_michel"
+        "id": "j_gros_michel",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+15</span> Mult<br><span class=\"c-green\">1 in 6</span> chance this<br>card is destroyed<br>at end of round</div>",
+        "rarity": 1
     },
     {
         "name": "Hack",
         "image": "Hack.webp",
         "status": false,
-        "id": "j_hack"
+        "id": "j_hack",
+        "description": "<div class=\"joker-description\">Retrigger<br>each played<br><span class=\"c-attention\">2</span>, <span class=\"c-attention\">3</span>, <span class=\"c-attention\">4</span>, or <span class=\"c-attention\">5</span></div>",
+        "rarity": 2
     },
     {
         "name": "Half Joker",
         "image": "Half Joker.webp",
         "status": false,
-        "id": "j_half"
+        "id": "j_half",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+20</span> Mult if played<br>hand contains<br><span class=\"c-attention\">3</span> or fewer cards</div>",
+        "rarity": 1
     },
     {
         "name": "Hallucination",
         "image": "Hallucination.webp",
         "status": false,
-        "id": "j_hallucination"
+        "id": "j_hallucination",
+        "description": "<div class=\"joker-description\"><span class=\"c-green\">1 in 2</span> chance to create<br>a <span class=\"c-tarot\">Tarot</span> card when any<br><span class=\"c-attention\">Booster Pack</span> is opened<br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Hanging Chad",
         "image": "Hanging Chad.webp",
         "status": false,
-        "id": "j_hanging_chad"
+        "id": "j_hanging_chad",
+        "description": "<div class=\"joker-description\">Retrigger <span class=\"c-attention\">first</span> played<br>card used in scoring<br><span class=\"c-attention\">2</span> additional times</div>",
+        "rarity": 1
     },
     {
         "name": "Hiker",
         "image": "Hiker.webp",
         "status": false,
-        "id": "j_hiker"
+        "id": "j_hiker",
+        "description": "<div class=\"joker-description\">Every played <span class=\"c-attention\">card</span><br>permanently gains<br><span class=\"c-chips\">+5</span> Chips when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Hit the Road",
         "image": "Hit the Road.webp",
         "status": false,
-        "id": "j_hit_the_road"
+        "id": "j_hit_the_road",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X0.5 </span> Mult<br>for every <span class=\"c-attention\">Jack</span><br>discarded this round<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 3
     },
     {
         "name": "Hologram",
         "image": "Hologram.webp",
         "status": false,
-        "id": "j_hologram"
+        "id": "j_hologram",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X0.25 </span> Mult<br>every time a <span class=\"c-attention\">playing card</span><br>is added to your deck<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Ice Cream",
         "image": "Ice Cream.webp",
         "status": false,
-        "id": "j_ice_cream"
+        "id": "j_ice_cream",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+100</span> Chips<br><span class=\"c-chips\">-5</span> Chips for<br>every hand played</div>",
+        "rarity": 1
     },
     {
         "name": "Invisible Joker",
         "image": "Invisible Joker.webp",
         "status": false,
-        "id": "j_invisible"
+        "id": "j_invisible",
+        "description": "<div class=\"joker-description\">After <span class=\"c-attention\">2</span> rounds,<br>sell this card to<br><span class=\"c-attention\">Duplicate</span> a random Joker<br><span class=\"c-inactive\">(Currently </span><span class=\"c-attention\">0</span><span class=\"c-inactive\">/2)</span></div>",
+        "rarity": 3
     },
     {
         "name": "Joker",
         "image": "Joker.webp",
         "status": false,
-        "id": "j_joker"
+        "id": "j_joker",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+4</span> Mult</div>",
+        "rarity": 1
     },
     {
         "name": "Joker Stencil",
         "image": "Joker Stencil.webp",
         "status": false,
-        "id": "j_stencil"
+        "id": "j_stencil",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X1 </span> Mult for each<br>empty <span class=\"c-attention\">Joker</span> slot<br><span class=\"size-0-8\">Joker Stencil included</span><br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Jolly Joker",
         "image": "Jolly Joker.webp",
         "status": false,
-        "id": "j_jolly"
+        "id": "j_jolly",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+8</span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Pair</span></div>",
+        "rarity": 1
     },
     {
         "name": "Juggler",
         "image": "Juggler.webp",
         "status": false,
-        "id": "j_juggler"
+        "id": "j_juggler",
+        "description": "<div class=\"joker-description\"><span class=\"c-attention\">+1</span> hand size</div>",
+        "rarity": 1
     },
     {
         "name": "Loyalty Card",
         "image": "Loyalty Card.webp",
         "status": false,
-        "id": "j_loyalty_card"
+        "id": "j_loyalty_card",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X4.0 </span> Mult every<br><span class=\"c-attention\">6</span> hands played<br><span class=\"c-inactive\"></span></div>",
+        "rarity": 2
     },
     {
         "name": "Luchador",
         "image": "Luchador.webp",
         "status": false,
-        "id": "j_luchador"
+        "id": "j_luchador",
+        "description": "<div class=\"joker-description\">Sell this card to<br>disable the current<br><span class=\"c-attention\">Boss Blind</span></div>",
+        "rarity": 2
     },
     {
         "name": "Lucky Cat",
         "image": "Lucky Cat.webp",
         "status": false,
-        "id": "j_lucky_cat"
+        "id": "j_lucky_cat",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X0.25 </span> Mult<br>every time a <span class=\"c-attention\">Lucky</span> card<br><span class=\"c-green\">successfully</span> triggers<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Lusty Joker",
         "image": "Lusty Joker.webp",
         "status": false,
-        "id": "j_lusty_joker"
+        "id": "j_lusty_joker",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-hearts\">Hearts</span> suit give<br><span class=\"c-mult\">+3</span> Mult when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Mad Joker",
         "image": "Mad Joker.webp",
         "status": false,
-        "id": "j_mad"
+        "id": "j_mad",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+10</span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Two Pair</span></div>",
+        "rarity": 1
     },
     {
         "name": "Madness",
         "image": "Madness.webp",
         "status": false,
-        "id": "j_madness"
+        "id": "j_madness",
+        "description": "<div class=\"joker-description\">When <span class=\"c-attention\">Small Blind</span> or <span class=\"c-attention\">Big Blind</span><br>is selected, gain <span class=\"x-mult c-red c-white\"> X0.5 </span> Mult<br>and <span class=\"c-attention\">destroy</span> a random Joker<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Mail-In Rebate",
         "image": "Mail-In Rebate.webp",
         "status": false,
-        "id": "j_mail"
+        "id": "j_mail",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$5</span> for each<br>discarded <span class=\"c-attention\">2</span>, rank<br>changes every round</div>",
+        "rarity": 1
     },
     {
         "name": "Marble Joker",
         "image": "Marble Joker.webp",
         "status": false,
-        "id": "j_marble"
+        "id": "j_marble",
+        "description": "<div class=\"joker-description\">Adds one <span class=\"c-attention\">Stone</span> card<br>to deck when<br><span class=\"c-attention\">Blind</span> is selected</div>",
+        "rarity": 2
     },
     {
         "name": "Matador",
         "image": "Matador.webp",
         "status": false,
-        "id": "j_matador"
+        "id": "j_matador",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$8</span> if played<br>hand triggers the<br><span class=\"c-attention\">Boss Blind</span> ability</div>",
+        "rarity": 2
     },
     {
         "name": "Merry Andy",
         "image": "Merry Andy.webp",
         "status": false,
-        "id": "j_merry_andy"
+        "id": "j_merry_andy",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+3</span> discards<br>each round,<br><span class=\"c-red\">-1</span> hand size</div>",
+        "rarity": 2
     },
     {
         "name": "Midas Mask",
         "image": "Midas Mask.webp",
         "status": false,
-        "id": "j_midas_mask"
+        "id": "j_midas_mask",
+        "description": "<div class=\"joker-description\">All played <span class=\"c-attention\">face</span> cards<br>become <span class=\"c-attention\">Gold</span> cards<br>when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Mime",
         "image": "Mime.webp",
         "status": false,
-        "id": "j_mime"
+        "id": "j_mime",
+        "description": "<div class=\"joker-description\">Retrigger all<br>card <span class=\"c-attention\">held in</span><br><span class=\"c-attention\">hand</span> abilities</div>",
+        "rarity": 2
     },
     {
         "name": "Misprint",
         "image": "Misprint.webp",
         "status": false,
-        "id": "j_misprint"
+        "id": "j_misprint",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+[0 to 23]</span> Mult</div>",
+        "rarity": 1
     },
     {
         "name": "Mr. Bones",
         "image": "Mr. Bones.webp",
         "status": false,
-        "id": "j_mr_bones"
+        "id": "j_mr_bones",
+        "description": "<div class=\"joker-description\">Prevents Death<br>if chips scored<br>are at least <span class=\"c-attention\">25%</span><br>of required chips<br><span class=\"size-1-1 c-red enhanced-text\">self destructs</span></div>",
+        "rarity": 2
     },
     {
         "name": "Mystic Summit",
         "image": "Mystic Summit.webp",
         "status": false,
-        "id": "j_mystic_summit"
+        "id": "j_mystic_summit",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+15</span> Mult when<br><span class=\"c-attention\">0</span> discards<br>remaining</div>",
+        "rarity": 1
     },
     {
         "name": "Obelisk",
         "image": "Obelisk.webp",
         "status": false,
-        "id": "j_obelisk"
+        "id": "j_obelisk",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X0.2 </span> Mult<br>per <span class=\"c-attention\">consecutive</span> hand played<br>without playing your<br>most played <span class=\"c-attention\">poker hand</span><br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 3
     },
     {
         "name": "Odd Todd",
         "image": "Odd Todd.webp",
         "status": false,
-        "id": "j_odd_todd"
+        "id": "j_odd_todd",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-attention\">odd</span> rank give<br><span class=\"c-chips\">+31</span> Chips when scored<br><span class=\"c-inactive\">(A, 9, 7, 5, 3)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Onyx Agate",
         "image": "Onyx Agate.webp",
         "status": false,
-        "id": "j_onyx_agate"
+        "id": "j_onyx_agate",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-clubs\">Club</span> suit give<br><span class=\"c-mult\">+7</span> Mult when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Oops! All 6s",
         "image": "Oops! All 6s.webp",
         "status": false,
-        "id": "j_oops"
+        "id": "j_oops",
+        "description": "<div class=\"joker-description\">Doubles all <span class=\"c-attention\">listed</span><br><span class=\"c-green c-e:1 c-s:1.1\">probabilities</span><br><span class=\"c-inactive\">(ex: </span><span class=\"c-green\">1 in 3</span><span class=\"c-inactive\"> -> </span><span class=\"c-green\">2 in 3</span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Pareidolia",
         "image": "Pareidolia.webp",
         "status": false,
-        "id": "j_pareidolia"
+        "id": "j_pareidolia",
+        "description": "<div class=\"joker-description\">All cards are<br>considered<br><span class=\"c-attention\">face</span> cards</div>",
+        "rarity": 2
     },
     {
         "name": "Perkeo",
         "image": "Perkeo.webp",
         "status": false,
-        "id": "j_perkeo"
+        "id": "j_perkeo",
+        "description": "<div class=\"joker-description\">Creates a <span class=\"c-dark-edition\">Negative</span> copy of<br><span class=\"c-attention\">1</span> random <span class=\"c-attention\">consumable</span><br>card in your possession<br>at the end of the <span class=\"c-attention\">shop</span></div>",
+        "rarity": 4
     },
     {
         "name": "Photograph",
         "image": "Photograph.webp",
         "status": false,
-        "id": "j_photograph"
+        "id": "j_photograph",
+        "description": "<div class=\"joker-description\">First played <span class=\"c-attention\">face</span><br>card gives <span class=\"x-mult c-red c-white\"> X2 </span> Mult<br>when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Popcorn",
         "image": "Popcorn.webp",
         "status": false,
-        "id": "j_popcorn"
+        "id": "j_popcorn",
+        "description": "<div class=\"joker-description\"><span class=\"c-mult\">+20</span> Mult<br><span class=\"c-mult\">-4</span> Mult per<br>round played</div>",
+        "rarity": 1
     },
     {
         "name": "Raised Fist",
         "image": "Raised Fist.webp",
         "status": false,
-        "id": "j_raised_fist"
+        "id": "j_raised_fist",
+        "description": "<div class=\"joker-description\">Adds <span class=\"c-attention\">double</span> the rank<br>of <span class=\"c-attention\">lowest</span> ranked card<br>held in hand to Mult</div>",
+        "rarity": 1
     },
     {
         "name": "Ramen",
         "image": "Ramen.webp",
         "status": false,
-        "id": "j_ramen"
+        "id": "j_ramen",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X2 </span> Mult,<br>loses <span class=\"x-mult c-red c-white\"> X0.01 </span> Mult<br>per <span class=\"c-attention\">card</span> discarded</div>",
+        "rarity": 2
     },
     {
         "name": "Red Card",
         "image": "Red Card.webp",
         "status": false,
-        "id": "j_red_card"
+        "id": "j_red_card",
+        "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"c-red\">+3</span> Mult when any<br><span class=\"c-attention\">Booster Pack</span> is skipped<br><span class=\"c-inactive\">(Currently </span><span class=\"c-red\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Reserved Parking",
         "image": "Reserved Parking.webp",
         "status": false,
-        "id": "j_reserved_parking"
+        "id": "j_reserved_parking",
+        "description": "<div class=\"joker-description\">Each <span class=\"c-attention\">face</span> card<br>held in hand has<br>a <span class=\"c-green\">1 in 2</span> chance<br>to give <span class=\"c-money\">$1</span></div>",
+        "rarity": 1
     },
     {
         "name": "Ride the Bus",
         "image": "Ride the Bus.webp",
         "status": false,
-        "id": "j_ride_the_bus"
+        "id": "j_ride_the_bus",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"c-mult\">+1</span> Mult<br>per <span class=\"c-attention\">consecutive</span> hand<br>played without a<br>scoring <span class=\"c-attention\">face</span> card<br><span class=\"c-inactive\">(Currently </span><span class=\"c-mult\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Riff-Raff",
         "image": "Riff-Raff.webp",
         "status": false,
-        "id": "j_riff_raff"
+        "id": "j_riff_raff",
+        "description": "<div class=\"joker-description\">When <span class=\"c-attention\">Blind</span> is selected,<br>create <span class=\"c-attention\">2 </span><span class=\"c-blue\">Common</span><span class=\"c-attention\"> Jokers</span><br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Rocket",
         "image": "Rocket.webp",
         "status": false,
-        "id": "j_rocket"
+        "id": "j_rocket",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$1</span> at end of round<br>Payout increases by <span class=\"c-money\">$2</span><br>when <span class=\"c-attention\">Boss Blind</span> is defeated</div>",
+        "rarity": 2
     },
     {
         "name": "Rough Gem",
         "image": "Rough Gem.webp",
         "status": false,
-        "id": "j_rough_gem"
+        "id": "j_rough_gem",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-diamonds\">Diamond</span> suit earn<br><span class=\"c-money\">$1</span> when scored</div>",
+        "rarity": 2
     },
     {
         "name": "Runner",
         "image": "Runner.webp",
         "status": false,
-        "id": "j_runner"
+        "id": "j_runner",
+        "description": "<div class=\"joker-description\">Gains <span class=\"c-chips\">+15</span> Chips<br>if played hand<br>contains a <span class=\"c-attention\">Straight</span><br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">+0</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Satellite",
         "image": "Satellite.webp",
         "status": false,
-        "id": "j_satellite"
+        "id": "j_satellite",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$1</span> at end of<br>round per unique <span class=\"c-planet\">Planet</span><br>card used this run<br><span class=\"c-inactive\">(Currently </span><span class=\"c-money\">$0</span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Scary Face",
         "image": "Scary Face.webp",
         "status": false,
-        "id": "j_scary_face"
+        "id": "j_scary_face",
+        "description": "<div class=\"joker-description\">Played <span class=\"c-attention\">face</span> cards<br>give <span class=\"c-chips\">+30</span> Chips<br>when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Scholar",
         "image": "Scholar.webp",
         "status": false,
-        "id": "j_scholar"
+        "id": "j_scholar",
+        "description": "<div class=\"joker-description\">Played <span class=\"c-attention\">Aces</span><br>give <span class=\"c-chips\">+20</span> Chips<br>and <span class=\"c-mult\">+4</span> Mult<br>when scored</div>",
+        "rarity": 1
     },
     {
         "name": "S\u00e9ance",
         "image": "S\u00e9ance.webp",
         "status": false,
-        "id": "j_seance"
+        "id": "j_seance",
+        "description": "<div class=\"joker-description\">If <span class=\"c-attention\">poker hand</span> is a<br><span class=\"c-attention\">Straight Flush</span>, create a<br>random <span class=\"c-spectral\">Spectral</span> card<br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Seeing Double",
         "image": "Seeing Double.webp",
         "status": false,
-        "id": "j_seeing_double"
+        "id": "j_seeing_double",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X2 </span> Mult if played<br>hand has a scoring<br><span class=\"c-clubs\">Club</span> card and a scoring<br>card of any other <span class=\"c-attention\">suit</span></div>",
+        "rarity": 2
     },
     {
         "name": "Seltzer",
         "image": "Seltzer.webp",
         "status": false,
-        "id": "j_selzer"
+        "id": "j_selzer",
+        "description": "<div class=\"joker-description\">Retrigger all<br>cards played for<br>the next <span class=\"c-attention\">10</span> hands</div>",
+        "rarity": 2
     },
     {
         "name": "Shoot the Moon",
         "image": "Shoot the Moon.webp",
         "status": false,
-        "id": "j_shoot_the_moon"
+        "id": "j_shoot_the_moon",
+        "description": "<div class=\"joker-description\">Each <span class=\"c-attention\">Queen</span><br>held in hand<br>gives <span class=\"c-mult\">+13</span> Mult</div>",
+        "rarity": 1
     },
     {
         "name": "Shortcut",
         "image": "Shortcut.webp",
         "status": false,
-        "id": "j_shortcut"
+        "id": "j_shortcut",
+        "description": "<div class=\"joker-description\">Allows <span class=\"c-attention\">Straights</span> to be<br>made with gaps of <span class=\"c-attention\">1 rank</span><br><span class=\"c-inactive\">(ex: </span><span class=\"c-attention\">10 8 6 5 3</span><span class=\"c-inactive\">)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Showman",
         "image": "Showman.webp",
         "status": false,
-        "id": "j_ring_master"
+        "id": "j_ring_master",
+        "description": "<div class=\"joker-description\"><span class=\"c-attention\">Joker</span>, <span class=\"c-tarot\">Tarot</span>, <span class=\"c-planet\">Planet</span>,<br>and <span class=\"c-spectral\">Spectral</span> cards may<br>appear multiple times</div>",
+        "rarity": 2
     },
     {
         "name": "Sixth Sense",
         "image": "Sixth Sense.webp",
         "status": false,
-        "id": "j_sixth_sense"
+        "id": "j_sixth_sense",
+        "description": "<div class=\"joker-description\">If <span class=\"c-attention\">first hand</span> of round is<br>a single <span class=\"c-attention\">6</span>, destroy it and<br>create a <span class=\"c-spectral\">Spectral</span> card<br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Sly Joker",
         "image": "Sly Joker.webp",
         "status": false,
-        "id": "j_sly"
+        "id": "j_sly",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+50</span> Chips if played<br>hand contains<br>a <span class=\"c-attention\">Pair</span></div>",
+        "rarity": 1
     },
     {
         "name": "Smeared Joker",
         "image": "Smeared Joker.webp",
         "status": false,
-        "id": "j_smeared"
+        "id": "j_smeared",
+        "description": "<div class=\"joker-description\"><span class=\"c-hearts\">Hearts</span> and <span class=\"c-diamonds\">Diamonds</span><br>count as the same suit,<br><span class=\"c-spades\">Spades</span> and <span class=\"c-clubs\">Clubs</span><br>count as the same suit</div>",
+        "rarity": 2
     },
     {
         "name": "Smiley Face",
         "image": "Smiley Face.webp",
         "status": false,
-        "id": "j_smiley"
+        "id": "j_smiley",
+        "description": "<div class=\"joker-description\">Played <span class=\"c-attention\">face</span> cards<br>give <span class=\"c-mult\">+5</span> Mult<br>when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Sock and Buskin",
         "image": "Sock and Buskin.webp",
         "status": false,
-        "id": "j_sock_and_buskin"
+        "id": "j_sock_and_buskin",
+        "description": "<div class=\"joker-description\">Retrigger all<br>played <span class=\"c-attention\">face</span> cards</div>",
+        "rarity": 2
     },
     {
         "name": "Space Joker",
         "image": "Space Joker.webp",
         "status": false,
-        "id": "j_space"
+        "id": "j_space",
+        "description": "<div class=\"joker-description\"><span class=\"c-green\">1 in 4</span> chance to<br>upgrade level of<br>played <span class=\"c-attention\">poker hand</span></div>",
+        "rarity": 2
     },
     {
         "name": "Spare Trousers",
         "image": "Spare Trousers.webp",
         "status": false,
-        "id": "j_trousers"
+        "id": "j_trousers",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"c-mult\">+2</span> Mult<br>if played hand contains<br>a <span class=\"c-attention\">Two Pair</span><br><span class=\"c-inactive\">(Currently </span><span class=\"c-red\">+0</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Splash",
         "image": "Splash.webp",
         "status": false,
-        "id": "j_splash"
+        "id": "j_splash",
+        "description": "<div class=\"joker-description\">Every <span class=\"c-attention\">played card</span><br>counts in scoring</div>",
+        "rarity": 1
     },
     {
         "name": "Square Joker",
         "image": "Square Joker.webp",
         "status": false,
-        "id": "j_square"
+        "id": "j_square",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"c-chips\">+4</span> Chips<br>if played hand has<br>exactly <span class=\"c-attention\">4</span> cards<br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">0</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Steel Joker",
         "image": "Steel Joker.webp",
         "status": false,
-        "id": "j_steel_joker"
+        "id": "j_steel_joker",
+        "description": "<div class=\"joker-description\">Gives <span class=\"x-mult c-red c-white\"> X0.2 </span> Mult<br>for each <span class=\"c-attention\">Steel Card</span><br>in your <span class=\"c-attention\">full deck</span><br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Stone Joker",
         "image": "Stone Joker.webp",
         "status": false,
-        "id": "j_stone"
+        "id": "j_stone",
+        "description": "<div class=\"joker-description\">Gives <span class=\"c-chips\">+25</span> Chips for<br>each <span class=\"c-attention\">Stone Card</span><br>in your <span class=\"c-attention\">full deck</span><br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">+0</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Stuntman",
         "image": "Stuntman.webp",
         "status": false,
-        "id": "j_stuntman"
+        "id": "j_stuntman",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+250</span> Chips,<br><span class=\"c-attention\">-2</span> hand size</div>",
+        "rarity": 3
     },
     {
         "name": "Supernova",
         "image": "Supernova.webp",
         "status": false,
-        "id": "j_supernova"
+        "id": "j_supernova",
+        "description": "<div class=\"joker-description\">Adds the number of times<br><span class=\"c-attention\">poker hand</span> has been<br>played this run to Mult</div>",
+        "rarity": 1
     },
     {
         "name": "Superposition",
         "image": "Superposition.webp",
         "status": false,
-        "id": "j_superposition"
+        "id": "j_superposition",
+        "description": "<div class=\"joker-description\">Create a <span class=\"c-tarot\">Tarot</span> card if<br>poker hand contains an<br><span class=\"c-attention\">Ace</span> and a <span class=\"c-attention\">Straight</span><br><span class=\"c-inactive\">(Must have room)</span></div>",
+        "rarity": 1
     },
     {
         "name": "Swashbuckler",
         "image": "Swashbuckler.webp",
         "status": false,
-        "id": "j_swashbuckler"
+        "id": "j_swashbuckler",
+        "description": "<div class=\"joker-description\">Adds the sell value<br>of all other owned<br><span class=\"c-attention\">Jokers</span> to Mult<br><span class=\"c-inactive\">(Currently </span><span class=\"c-mult\">+1</span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 1
     },
     {
         "name": "The Duo",
         "image": "The Duo.webp",
         "status": false,
-        "id": "j_duo"
+        "id": "j_duo",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X2 </span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Pair</span></div>",
+        "rarity": 3
     },
     {
         "name": "The Family",
         "image": "The Family.webp",
         "status": false,
-        "id": "j_family"
+        "id": "j_family",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X4 </span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Four of a Kind</span></div>",
+        "rarity": 3
     },
     {
         "name": "The Idol",
         "image": "The Idol.webp",
         "status": false,
-        "id": "j_idol"
+        "id": "j_idol",
+        "description": "<div class=\"joker-description\">Each played <span class=\"c-attention\">[random owned rank]</span><br>of <span class=\"variable\">[random owned suit]</span> gives<br><span class=\"x-mult c-red c-white\"> X2 </span> Mult when scored<br><span class=\"size-0-8\">Card changes every round</span></div>",
+        "rarity": 2
     },
     {
         "name": "The Order",
         "image": "The Order.webp",
         "status": false,
-        "id": "j_order"
+        "id": "j_order",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3 </span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Straight</span></div>",
+        "rarity": 3
     },
     {
         "name": "The Tribe",
         "image": "The Tribe.webp",
         "status": false,
-        "id": "j_tribe"
+        "id": "j_tribe",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X2 </span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Flush</span></div>",
+        "rarity": 3
     },
     {
         "name": "The Trio",
         "image": "The Trio.webp",
         "status": false,
-        "id": "j_trio"
+        "id": "j_trio",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X3 </span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Three of a Kind</span></div>",
+        "rarity": 3
     },
     {
         "name": "Throwback",
         "image": "Throwback.webp",
         "status": false,
-        "id": "j_throwback"
+        "id": "j_throwback",
+        "description": "<div class=\"joker-description\"><span class=\"x-mult c-red c-white\"> X0.25 </span> Mult for each<br><span class=\"c-attention\">Blind</span> skipped this run<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "To Do List",
         "image": "To Do List.webp",
         "status": false,
-        "id": "j_todo_list"
+        "id": "j_todo_list",
+        "description": "<div class=\"joker-description\">Earn <span class=\"c-money\">$4</span> if <span class=\"c-attention\">poker hand</span><br>is a <span class=\"c-attention\">High Card</span>,<br>poker hand changes<br>at end of round</div>",
+        "rarity": 1
     },
     {
         "name": "To the Moon",
         "image": "To the Moon.webp",
         "status": false,
-        "id": "j_to_the_moon"
+        "id": "j_to_the_moon",
+        "description": "<div class=\"joker-description\">Earn an extra <span class=\"c-money\">$1</span> of<br><span class=\"c-attention\">interest</span> for every <span class=\"c-money\">$5</span> you<br>have at end of round</div>",
+        "rarity": 2
     },
     {
         "name": "Trading Card",
         "image": "Trading Card.webp",
         "status": false,
-        "id": "j_trading"
+        "id": "j_trading",
+        "description": "<div class=\"joker-description\">If <span class=\"c-attention\">first discard</span> of round<br>has only <span class=\"c-attention\">1</span> card, destroy<br>it and earn <span class=\"c-money\">$3</span></div>",
+        "rarity": 2
     },
     {
         "name": "Triboulet",
         "image": "Triboulet.webp",
         "status": false,
-        "id": "j_triboulet"
+        "id": "j_triboulet",
+        "description": "<div class=\"joker-description\">Played <span class=\"c-attention\">Kings</span> and<br><span class=\"c-attention\">Queens</span> each give<br><span class=\"x-mult c-red c-white\"> X2 </span> Mult when scored</div>",
+        "rarity": 4
     },
     {
         "name": "Troubadour",
         "image": "Troubadour.webp",
         "status": false,
-        "id": "j_troubadour"
+        "id": "j_troubadour",
+        "description": "<div class=\"joker-description\"><span class=\"c-attention\">+2</span> hand size,<br><span class=\"c-blue\">-1</span> hand each round</div>",
+        "rarity": 2
     },
     {
         "name": "Turtle Bean",
         "image": "Turtle Bean.webp",
         "status": false,
-        "id": "j_turtle_bean"
+        "id": "j_turtle_bean",
+        "description": "<div class=\"joker-description\"><span class=\"c-attention\">+5</span> hand size,<br>reduces by<br><span class=\"c-red\">1</span> every round</div>",
+        "rarity": 2
     },
     {
         "name": "Vagabond",
         "image": "Vagabond.webp",
         "status": false,
-        "id": "j_vagabond"
+        "id": "j_vagabond",
+        "description": "<div class=\"joker-description\">Create a <span class=\"c-purple\">Tarot</span> card<br>if hand is played<br>with <span class=\"c-money\">$4</span> or less</div>",
+        "rarity": 3
     },
     {
         "name": "Vampire",
         "image": "Vampire.webp",
         "status": false,
-        "id": "j_vampire"
+        "id": "j_vampire",
+        "description": "<div class=\"joker-description\">This Joker gains <span class=\"x-mult c-red c-white\"> X0.1 </span> Mult<br>per scoring <span class=\"c-attention\">Enhanced card</span> played,<br>removes card <span class=\"c-attention\">Enhancement</span><br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 2
     },
     {
         "name": "Walkie Talkie",
         "image": "Walkie Talkie.webp",
         "status": false,
-        "id": "j_walkie_talkie"
+        "id": "j_walkie_talkie",
+        "description": "<div class=\"joker-description\">Each played <span class=\"c-attention\">10</span> or <span class=\"c-attention\">4</span><br>gives <span class=\"c-chips\">+10</span> Chips and<br><span class=\"c-mult\">+4</span> Mult when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Wee Joker",
         "image": "Wee Joker.webp",
         "status": false,
-        "id": "j_wee"
+        "id": "j_wee",
+        "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"c-chips\">+8</span> Chips when each<br>played <span class=\"c-attention\">2</span> is scored<br><span class=\"c-inactive\">(Currently </span><span class=\"c-chips\">+0</span><span class=\"c-inactive\"> Chips)</span></div>",
+        "rarity": 3
     },
     {
         "name": "Wily Joker",
         "image": "Wily Joker.webp",
         "status": false,
-        "id": "j_wily"
+        "id": "j_wily",
+        "description": "<div class=\"joker-description\"><span class=\"c-chips\">+100</span> Chips if played<br>hand contains<br>a <span class=\"c-attention\">Three of a Kind</span></div>",
+        "rarity": 1
     },
     {
         "name": "Wrathful Joker",
         "image": "Wrathful Joker.webp",
         "status": false,
-        "id": "j_wrathful_joker"
+        "id": "j_wrathful_joker",
+        "description": "<div class=\"joker-description\">Played cards with<br><span class=\"c-spades\">Spades</span> suit give<br><span class=\"c-mult\">+3</span> Mult when scored</div>",
+        "rarity": 1
     },
     {
         "name": "Yorick",
         "image": "Yorick.webp",
         "status": false,
-        "id": "j_yorick"
+        "id": "j_yorick",
+        "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"x-mult c-red c-white\"> X1 </span> Mult every <span class=\"c-attention\">23<span class=\"c-inactive\"> [23]</span></span><br>cards discarded<br><span class=\"c-inactive\">(Currently <span class=\"x-mult c-red c-white\"> X1 </span></span><span class=\"c-inactive\"> Mult)</span></div>",
+        "rarity": 4
     },
     {
         "name": "Zany Joker",
         "image": "Zany Joker.webp",
         "status": false,
-        "id": "j_zany"
+        "id": "j_zany",
+        "description": "<div class=\"joker-description\"><span class=\"c-red\">+12</span> Mult if played<br>hand contains<br>a <span class=\"c-attention\">Three of a Kind</span></div>",
+        "rarity": 1
     }
 ]

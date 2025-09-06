@@ -189,3 +189,135 @@ input[type="checkbox"]:checked + .custom-checkbox::before {
 .card-body {
     padding: 0;
 }
+
+/* Joker Tooltip Styles */
+.joker-tooltip {
+    position: absolute;
+    z-index: 1000;
+    background-color: rgb(52, 62, 63);
+    border: 2px solid #333333;
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 300px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.joker-tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 6px;
+    text-shadow: 0.1rem 0.1rem 0px #000000;
+    text-align: center;
+}
+
+.tooltip-rarity {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6px;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 6px;
+    text-shadow: 0.1rem 0.1rem 0px #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+
+.tooltip-rarity.rarity-1 {
+    background-color: #009dff; /* Common - Blue */
+}
+
+.tooltip-rarity.rarity-2 {
+    background-color: #4BC292; /* Uncommon - Green */
+}
+
+.tooltip-rarity.rarity-3 {
+    background-color: #fe5f55; /* Rare - Red */
+}
+
+.tooltip-rarity.rarity-4 {
+    background-color: #b26cbb; /* Legendary - Purple */
+}
+
+.tooltip-description {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.3;
+    text-shadow: none;
+    text-align: center;
+    min-width: 200px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Balatro Joker Description Styles - Tooltip specific only */
+
+/* Base color classes */
+.c-red { color: #FE5F55; }
+.c-blue { color: #009DFF; }
+.c-green { color: #4BC292; }
+.c-purple { color: #8867A5; }
+.c-orange { color: #FDA200; }
+.c-yellow { color: #ffd43b; }
+.c-white { color: #ffffff; }
+.c-black { color: #000000; }
+.c-grey { color: #868e96; }
+.c-gray { color: #868e96; }
+.c-gold { color: #EAC058; }
+
+/* Semantic color classes */
+.c-money { color: #F3B958; }
+.c-chips { color: #009DFF; }
+.c-mult { color: #FE5F55; }
+.c-attention { color: #FF9A00; }
+.c-inactive { color: #888888AA; }
+.c-dark-edition { color: #000000; }
+.c-legendary { color: #B26CBB; }
+.c-spectral { color: #4584FA; }
+.c-voucher { color: #CB724C; }
+.c-enhancement { color: #8389DD; }
+.c-joker { color: #ffd43b; }
+.c-tarot { color: #A782D1; }
+.c-planet { color: #13AFCE; }
+.c-playing-card { color: #ffffff; }
+.c-important { color: #ff6b6b; }
+.c-edition { color: #FFFFFF; }
+
+/* Additional UI colors */
+.c-booster { color: #646EB7; }
+.c-eternal { color: #C75985; }
+.c-perishable { color: #4F5DA1; }
+.c-rental { color: #B18F43; }
+.c-joker-grey { color: #BFC7D5; }
+.c-pale-green { color: #56A887; }
+
+/* Suit colors */
+.c-hearts { color: #FE5F55; }
+.c-diamonds { color: #FE5F55; }
+.c-clubs { color: #424E54; }
+.c-spades { color: #374649; }
+
+/* Special formatting classes */
+.x-mult {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #ff6b6b;
+}
+
+.variable {
+    color: #4f90ec;
+    font-weight: bold;
+}

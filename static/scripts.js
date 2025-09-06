@@ -2,6 +2,10 @@ let currentView = 'all';
 let currentActiveButton = null;
 const staticDir = "./static/";
 let totalJokers = 0;
+const jokerTooltipData = {};
+let tooltipTimer = null;
+let currentHoveredCard = null;
+let currentMousePosition = { x: 0, y: 0 };
 
 document.addEventListener('DOMContentLoaded', () => {
     initPage()
@@ -43,6 +47,13 @@ function generateJokerGrid(jokers) {
             </div>
         `;
         container.innerHTML += jokerHtml;
+        
+        // add tooltip listeners
+        jokerTooltipData[joker.id] = {
+            name: joker.name,
+            description: joker.description,
+            rarity: joker.rarity
+        };
     });
 }
 
@@ -63,12 +74,14 @@ function initPage() {
         totalJokers = data.length;
         // console.log('Success:', data);
         generateJokerGrid(data);
+        setupTooltipEvents(); // Set up tooltip event listeners
     })
     .catch((error) => {
         console.error('Error:', error);
         alert('Error, check the console');
    });
 }
+
 function handleCardClick(card) {
     const checkbox = card.querySelector('input[type="checkbox"]');
     checkbox.checked = !checkbox.checked
@@ -278,4 +291,140 @@ function setStatsFromProfile(jokers){
         checkbox.dispatchEvent(event);
    });
     updateStats();
+}
+
+function setupTooltipEvents() {
+    const tooltip = document.getElementById('joker-tooltip');
+    // Add tooltip event listeners (only once, outside the loop)
+    document.addEventListener('mouseover', function(e) {
+        const card = e.target.closest('.card');
+        if (card && card.id) {
+            startTooltipTimer(card, e);
+        }
+    });
+
+    document.addEventListener('mouseout', function(e) {
+        const card = e.target.closest('.card');
+        if (card && card.id) {
+            clearTooltipTimer();
+            hideTooltip();
+        }
+    });
+
+    document.addEventListener('mousemove', function(e) {
+        const card = e.target.closest('.card');
+        if (card && card.id) {
+            // Update stored mouse position
+            currentMousePosition = { x: e.clientX, y: e.clientY };
+            
+            // If we're hovering over a different card, restart the timer
+            if (currentHoveredCard !== card.id) {
+                clearTooltipTimer();
+                startTooltipTimer(card, e);
+            }
+            // If tooltip is already showing, update its position
+            if (tooltip.classList.contains('show')) {
+                updateTooltipPosition(e.clientX, e.clientY);
+            }
+        } else {
+            clearTooltipTimer();
+            hideTooltip();
+        }
+    });
+
+    document.addEventListener('scroll', function(e) {
+        hideTooltip();
+    });
+}
+
+function startTooltipTimer(card, e) {
+    clearTooltipTimer();
+    currentHoveredCard = card.id;
+    currentMousePosition = { x: e.clientX, y: e.clientY };
+    
+    tooltipTimer = setTimeout(() => {
+        showTooltip(card);
+    }, 500);
+}
+
+function clearTooltipTimer() {
+    if (tooltipTimer) {
+        clearTimeout(tooltipTimer);
+        tooltipTimer = null;
+    }
+    currentHoveredCard = null;
+}
+
+function showTooltip(card) {
+    const tooltip = document.getElementById('joker-tooltip');
+    
+    // Get joker data directly using the card ID
+    const jokerData = jokerTooltipData[card.id];
+    
+    if (!jokerData) {
+        console.warn('No joker data found for:', card.id);
+        return;
+    }
+    
+    // Map rarity numbers to display names
+    const rarityNames = {
+        1: 'Common',
+        2: 'Uncommon', 
+        3: 'Rare',
+        4: 'Legendary'
+    };
+    
+    // Update tooltip content
+    tooltip.querySelector('.tooltip-title').textContent = jokerData.name;
+    
+    const rarityElement = tooltip.querySelector('.tooltip-rarity');
+    const rarity = jokerData.rarity;
+    rarityElement.textContent = rarityNames[rarity] || 'Unknown';
+    rarityElement.className = `tooltip-rarity rarity-${rarity}`;
+    
+    tooltip.querySelector('.tooltip-description').innerHTML = jokerData.description;
+    
+    // Position and show tooltip using stored mouse position
+    updateTooltipPosition(currentMousePosition.x, currentMousePosition.y);
+    tooltip.classList.add('show');
+}
+
+function hideTooltip() {
+    const tooltip = document.getElementById('joker-tooltip');
+    tooltip.classList.remove('show');
+}
+
+function updateTooltipPosition(mouseX, mouseY) {
+    const tooltip = document.getElementById('joker-tooltip');
+    const offset = 15;
+    
+    // Get tooltip dimensions
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+    
+    // Center the tooltip horizontally under the cursor (accounting for scroll)
+    let left = mouseX - (tooltipRect.width / 2);
+    let top = mouseY + offset;
+    
+    // Adjust horizontal position if tooltip would go off screen
+    // Keep it as close to centered as possible while staying on screen
+    if (left < 5) {
+        left = 5;
+    } else if (left + tooltipRect.width > windowWidth - 5) {
+        left = windowWidth - tooltipRect.width - 5;
+    }
+    
+    // Adjust vertical position if tooltip would go off screen
+    if (top + tooltipRect.height > windowHeight - 5) {
+        top = mouseY - tooltipRect.height - offset;
+    }
+    
+    // Ensure tooltip doesn't go off the top edge
+    top = Math.max(5, top);
+    
+    // Apply positioning with fixed positioning relative to viewport
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${top}px`;
+    tooltip.style.position = 'fixed';
 }
