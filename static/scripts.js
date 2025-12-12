@@ -294,7 +294,7 @@ function setStatsFromProfile(jokers){
 }
 
 function setupTooltipEvents() {
-    const tooltip = document.getElementById('joker-tooltip');
+    const tooltip = document.getElementById('joker-tooltip-wrapper');
     // Add tooltip event listeners (only once, outside the loop)
     document.addEventListener('mouseover', function(e) {
         const card = e.target.closest('.card');
@@ -356,7 +356,7 @@ function clearTooltipTimer() {
 }
 
 function showTooltip(card) {
-    const tooltip = document.getElementById('joker-tooltip');
+    const tooltip = document.getElementById('joker-tooltip-wrapper');
     
     // Get joker data directly using the card ID
     const jokerData = jokerTooltipData[card.id];
@@ -380,7 +380,7 @@ function showTooltip(card) {
     const rarityElement = tooltip.querySelector('.tooltip-rarity');
     const rarity = jokerData.rarity;
     rarityElement.textContent = rarityNames[rarity] || 'Unknown';
-    rarityElement.className = `tooltip-rarity rarity-${rarity}`;
+    rarityElement.className = `tooltip-rarity pixel-corners rarity-${rarity}`;
     
     tooltip.querySelector('.tooltip-description').innerHTML = jokerData.description;
     
@@ -390,12 +390,12 @@ function showTooltip(card) {
 }
 
 function hideTooltip() {
-    const tooltip = document.getElementById('joker-tooltip');
+    const tooltip = document.getElementById('joker-tooltip-wrapper');
     tooltip.classList.remove('show');
 }
 
 function updateTooltipPosition(mouseX, mouseY) {
-    const tooltip = document.getElementById('joker-tooltip');
+    const tooltip = document.getElementById('joker-tooltip-wrapper');
     const offset = 15;
     
     // Get tooltip dimensions

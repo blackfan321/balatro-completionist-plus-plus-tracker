@@ -191,21 +191,29 @@ input[type="checkbox"]:checked + .custom-checkbox::before {
 }
 
 /* Joker Tooltip Styles */
-.joker-tooltip {
+.joker-tooltip-wrapper {
     position: absolute;
     z-index: 1000;
+    -webkit-filter: drop-shadow(11px 10px 20px #000);
+    filter: drop-shadow(11px 10px 20px #000);
+    opacity: 0;
+    transition:opacity 0.2s ease-in-out;
+}
+
+.joker-tooltip {
     background-color: rgb(52, 62, 63);
     border: 2px solid #333333;
     border-radius: 8px;
     padding: 8px;
     max-width: 300px;
     pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
-.joker-tooltip.show {
+.joker-tooltip-wrapper:hover {
+    opacity: 1;
+}
+
+.joker-tooltip-wrapper.show {
     opacity: 1;
 }
 
@@ -221,37 +229,52 @@ input[type="checkbox"]:checked + .custom-checkbox::before {
     color: white;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 6px;
+    margin-top: 8px;
     text-align: center;
     padding: 4px 12px;
     border-radius: 6px;
     text-shadow: 0.1rem 0.1rem 0px #000000;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 2px solid rgba(255,255,255,0.3);
 }
 
 .tooltip-rarity.rarity-1 {
     background-color: #009dff; /* Common - Blue */
 }
 
+.pixel-corners.rarity-1::after {
+    background: #009dff;
+}
+
 .tooltip-rarity.rarity-2 {
     background-color: #4BC292; /* Uncommon - Green */
+}
+
+.pixel-corners.rarity-2::after {
+    background: #4BC292;
 }
 
 .tooltip-rarity.rarity-3 {
     background-color: #fe5f55; /* Rare - Red */
 }
 
+.pixel-corners.rarity-3::after {
+    background: #fe5f55;
+}
+
 .tooltip-rarity.rarity-4 {
     background-color: #b26cbb; /* Legendary - Purple */
+}
+
+.pixel-corners.rarity-4::after {
+    background: #b26cbb;
 }
 
 .tooltip-description {
     background-color: white;
     color: black;
     padding: 8px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 14px;
     line-height: 1.3;
     text-shadow: none;
@@ -261,6 +284,10 @@ input[type="checkbox"]:checked + .custom-checkbox::before {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.pixel-corners.tooltip-description::after {
+    background: white;
 }
 
 /* Balatro Joker Description Styles - Tooltip specific only */
