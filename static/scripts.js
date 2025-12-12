@@ -396,7 +396,7 @@ function hideTooltip() {
 
 function updateTooltipPosition(mouseX, mouseY) {
     const tooltip = document.getElementById('joker-tooltip-wrapper');
-    const offset = 15;
+    const offset = 20;
     
     // Get tooltip dimensions
     const tooltipRect = tooltip.getBoundingClientRect();

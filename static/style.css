@@ -197,7 +197,8 @@ input[type="checkbox"]:checked + .custom-checkbox::before {
     -webkit-filter: drop-shadow(11px 10px 20px #000);
     filter: drop-shadow(11px 10px 20px #000);
     opacity: 0;
-    transition:opacity 0.2s ease-in-out;
+    transform: scale(1.1) rotate(4deg);
+    transition:opacity 0.2s ease-in-out, transform 0.4s ease;
 }
 
 .joker-tooltip {
@@ -211,10 +212,12 @@ input[type="checkbox"]:checked + .custom-checkbox::before {
 
 .joker-tooltip-wrapper:hover {
     opacity: 1;
+    transform: scale(1) rotate(0deg);
 }
 
 .joker-tooltip-wrapper.show {
     opacity: 1;
+    transform: scale(1) rotate(0deg);
 }
 
 .tooltip-title {
