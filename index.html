@@ -1,70 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" href="/static/images/favicon.ico" sizes="any">
 
-    <link rel="stylesheet" type="text/css" href="./static/style.css">
-    <link rel="stylesheet" type="text/css" href="./static/button-magic.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/cards.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/inputs.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/tooltips.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/pixel-corners.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.0.4/pako.min.js"></script>
-    <script src="./static/scripts.js"> </script>
+    <script src="/static/js/pako-v2.0.4.min.js"></script>
+    <script src="/static/js/anime-v4.2.2.umd.min.js"></script>
+    <script src="/static/js/vanila-tilt-v1.8.1.min.js"></script>
+    <script src="/static/js/script.js"></script>
+    <script src="/static/js/animation.js" defer></script>
+
     <title>Balatro Completionist++ Tracker</title>
-</head>
+  </head>
+  <body>
 
-<body>
-    <div class="container-fluid sticky-top header">
-        <div class="row mb-5 pb-2 pt-5">
-            <div class="col-12 col-sm-6 mb-3 mb-md-0 d-flex flex-column text-center justify-content-center">
-                <div class="row title-row">
-                    <h1>Completionist++</h1>
-                </div>
-                <div class="row mx-4 mb-1">
-                    <span id="stats">0/0 (0.00%)</span>
-                    <div class="progress pixel-corners p-0" role="progressbar">
-                      <div id="progress" class="progress-bar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
+    <canvas id="background"></canvas>
+
+    <div id="sidebar-wrapper">
+      <div id="sidebar">
+
+        <div id="title" class="pixel-corners-2x8">Completionist++</div>
+
+        <label id="upload" class="pixel-corners-2x8">
+          Upload Profile
+          <input id="upload-input" type="file" accept=".jkr" />
+        </label>
+
+        <div id="statistic">
+          <div class="progress-bar-wrapper pixel-corners-2x4" data-rarity="all">
+            <h3>All</h3>
+            <div class="progress-bar pixel-corners-2x2">
+              <h3></h3>
             </div>
-            <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
-                <div class="row">
-                    <div class="container text-center">
-                        <label for="profileInput" class="btn btn-primary mb-2 button-pixelated pixel-corners">Import Profile</label>
-                        <input id="profileInput" type="file" style="display: none" accept=".jkr">
-                        <button class="btn btn-primary mb-2 button-pixelated pixel-corners" onclick="setAllState(true)">Add All Stickers</button>
-                        <button class="btn btn-primary mb-2 button-pixelated pixel-corners" onclick="setAllState(false)">Remove All Stickers</button>
-                    </div>
-                    <div class="container text-center filter-group">
-                        <input type="radio" class="btn-check" name="filters" id="filter-stickers-only" autocomplete="off" onchange="filterStickers(this)">
-                        <label class="btn mb-2 button-pixelated pixel-corners" for="filter-stickers-only">Show Stickers Only</label>
-
-                        <input type="radio" class="btn-check" name="filters" id="filter-all" autocomplete="off" onchange="filterStickers(this)" checked>
-                        <label class="btn mb-2 button-pixelated pixel-corners" for="filter-all">Show All</label>
-
-                        <input type="radio" class="btn-check" name="filters" id="filter-no-stickers-only" autocomplete="off" onchange="filterStickers(this)">
-                        <label class="btn mb-2 button-pixelated pixel-corners" for="filter-no-stickers-only">Show No Stickers Only</label>
-                    </div>
-                </div>
+          </div>
+          <div class="progress-bar-wrapper pixel-corners-2x4" data-rarity="4">
+            <h3 style="color: #AB5BB5;">Legendary</h3>
+            <div class="progress-bar pixel-corners-2x2">
+              <h3></h3>
             </div>
+          </div>
+          <div class="progress-bar-wrapper pixel-corners-2x4" data-rarity="3">
+            <h3 style="color: #FF4C40;">Rare</h3>
+            <div class="progress-bar pixel-corners-2x2">
+              <h3></h3>
+            </div>
+          </div>
+          <div class="progress-bar-wrapper pixel-corners-2x4" data-rarity="2">
+            <h3 style="color: #35BD86;">Uncommon</h3>
+            <div class="progress-bar pixel-corners-2x2">
+              <h3></h3>
+            </div>
+          </div>
+          <div class="progress-bar-wrapper pixel-corners-2x4" data-rarity="1">
+            <h3 style="color: #0093FF;">Common</h3>
+            <div class="progress-bar pixel-corners-2x2">
+              <h3></h3>
+            </div>
+          </div>
         </div>
+
+        <label id="search" class="pixel-corners-2x8">
+          <input id="search-input" type="search" placeholder="Search Joker..." autocomplete="off" />
+        </label>
+
+        <div id="filters-group">
+          <div class="pixel-corners-2x8">
+            <h1>Rarity</h1>
+            <div class="checkbox-wrapper">
+              <input class="inp-cbx" name="rarity" id="rarity-legendary" value="4" checked type="checkbox"/>
+              <label class="cbx" for="rarity-legendary">
+                <span class="pixel-corners-2x2">
+                  <div class="pixel-corners-2x2">
+                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" id="check"><polyline id="primary" points="5 12 10 17 19 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 3;"></polyline></svg>
+                  </div>
+                </span>
+                <span>Legendary</span>
+              </label>
+            </div>
+            <div class="checkbox-wrapper">
+              <input class="inp-cbx" name="rarity" id="rarity-rare" value="3" checked type="checkbox"/>
+              <label class="cbx" for="rarity-rare">
+                <span class="pixel-corners-2x2">
+                  <div class="pixel-corners-2x2">
+                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" id="check"><polyline id="primary" points="5 12 10 17 19 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 3;"></polyline></svg>
+                  </div>
+                </span>
+                <span>Rare</span>
+              </label>
+            </div>
+            <div class="checkbox-wrapper">
+              <input class="inp-cbx" name="rarity" id="rarity-uncommon" value="2" checked type="checkbox"/>
+              <label class="cbx" for="rarity-uncommon">
+                <span class="pixel-corners-2x2">
+                  <div class="pixel-corners-2x2">
+                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" id="check"><polyline id="primary" points="5 12 10 17 19 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 3;"></polyline></svg>
+                  </div>
+                </span>
+                <span>Uncommon</span>
+              </label>
+            </div>
+            <div class="checkbox-wrapper">
+              <input class="inp-cbx" name="rarity" id="rarity-common" value="1" checked type="checkbox"/>
+              <label class="cbx" for="rarity-common">
+                <span class="pixel-corners-2x2">
+                  <div class="pixel-corners-2x2">
+                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" id="check"><polyline id="primary" points="5 12 10 17 19 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 3;"></polyline></svg>
+                  </div>
+                </span>
+                <span>Common</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="pixel-corners-2x8">
+            <h1>Sticker</h1>
+            <div class="checkbox-wrapper">
+              <input class="inp-cbx" name="sticker" id="sticker-yes" value="yes" checked type="checkbox"/>
+              <label class="cbx" for="sticker-yes">
+                <span class="pixel-corners-2x2">
+                  <div class="pixel-corners-2x2">
+                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" id="check"><polyline id="primary" points="5 12 10 17 19 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 3;"></polyline></svg>
+                  </div>
+                </span>
+                <span>Yes</span>
+              </label>
+            </div>
+            <div class="checkbox-wrapper">
+              <input class="inp-cbx" name="sticker" id="sticker-no" value="no" checked type="checkbox"/>
+              <label class="cbx" for="sticker-no">
+                <span class="pixel-corners-2x2">
+                  <div class="pixel-corners-2x2">
+                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" id="check"><polyline id="primary" points="5 12 10 17 19 8" style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 3;"></polyline></svg>
+                  </div>
+                </span>
+                <span>No</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="pixel-corners-2x8">
+            <h1>Sort</h1>
+            <div class="radio-wrapper">
+              <input class="inp-cbx" name="sort" id="sort-name" value="name" checked type="radio"/>
+              <label class="cbx" for="sort-name">
+                <span class="pixel-corners-2x4">
+                  <div class="pixel-corners-2x4">
+                    <div class="pixel-corners-2x2"></div>
+                  </div>
+                </span>
+                <span>Name</span>
+              </label>
+            </div>
+            <div class="radio-wrapper">
+              <input class="inp-cbx" name="sort" id="sort-rarity" value="rarity" type="radio"/>
+              <label class="cbx" for="sort-rarity">
+                <span class="pixel-corners-2x4">
+                  <div class="pixel-corners-2x4">
+                    <div class="pixel-corners-2x2"></div>
+                  </div>
+                </span>
+                <span>Rarity</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <a
+          id="github-link"
+          class="pixel-corners-2x8"
+          href="https://github.com/blackfan321/balatro-completionist-plus-plus-tracker"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+
+      </div>
     </div>
 
-    <div id="cards-container" class="container-fluid px-sm-5">
-        <div id="joker-grid" class="row">
-
-        </div>
+    <div id="card-grid-wrapper">
+      <div id="card-grid-background" class="pixel-corners-2x16"></div>
+      <div id="card-grid"></div>
     </div>
 
-    <!-- Tooltip container -->
-    <div id="joker-tooltip-wrapper" class="joker-tooltip-wrapper">
-        <div id="joker-tooltip" class="joker-tooltip pixel-corners">
-            <div class="tooltip-title"></div>
-            <div class="tooltip-description pixel-corners"></div>
-            <div class="tooltip-rarity"></div>
-        </div>
-    </div>
-</body>
+  </body>
 </html>

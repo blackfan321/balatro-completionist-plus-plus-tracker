@@ -1,0 +1,167 @@
+#sidebar-wrapper {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  overflow: hidden;
+  width: 24rem;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-right: 4px solid #976605;
+  border-left: 4px solid #976605;
+  background-color: #2E3A3C;
+  color: white;
+  text-shadow: 0 0.125rem rgba(0, 0, 0, 0.5);
+}
+
+#sidebar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Title */
+#title {
+  display: grid;
+  width: 100%;
+  height: 3.5rem;
+  background-color: #A56C00;
+  font-size: 2.5rem;
+  place-items: center;
+}
+
+/* Upload */
+#upload, #search, #github-link {
+  display: grid;
+  width: 100%;
+  min-height: 3.5rem;
+  background-color: #009DFF;
+  font-size: 1.5rem;
+  place-items: center;
+}
+
+#upload:hover, #search:hover {
+  background-color: #0057A1;
+}
+
+#upload {
+  cursor: pointer;
+}
+
+#upload > input {
+  display: none;
+}
+
+#search-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  appearance: none;
+  background-color: transparent;
+  caret-color: white;
+  color: white;
+  cursor: text;
+  font-family: 'pixelFont';
+  font-size: 1.5rem;
+  outline: none;
+  text-align: center;
+}
+
+#search-input::placeholder {
+  color: #54BFFF;
+}
+
+#search-input::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+/* Statistic */
+#statistic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem 0;
+}
+
+.progress-bar-wrapper {
+  display: flex;
+  width: 100%;
+  height: 2.5rem;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.25rem;
+  background-color: #1E2B2D;
+}
+
+.progress-bar-wrapper > h3 {
+  display: grid;
+  width: 12rem;
+  flex-grow: 0;
+  place-content: center;
+}
+
+.progress-bar {
+  position: relative;
+  display: grid;
+  overflow: hidden;
+  width: 12rem;
+  height: 2rem;
+  flex-grow: 1;
+  background-color: #2E3A3C;
+  place-items: center;
+}
+
+.progress-bar::before {
+  position: absolute;
+  width: var(--progress, 0%);
+  background-color: #005E97;
+  content: "";
+  inset: 0;
+  transition: width 0.2s ease;
+}
+
+.progress-bar > h3 {
+  position: relative;
+  z-index: 1;
+}
+
+/* Filters */
+#filters-group {
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+#filters-group > div {
+  flex: 1;
+  padding: 0.5rem;
+  background-color: #1E2B2D;
+}
+
+#filters-group > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+#filters-group h1 {
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+#github-link {
+  background-color: #1E2B2D;
+  color: white;
+  text-decoration: none;
+}
+
+#github-link:hover {
+  background-color: #2F363D;
+}

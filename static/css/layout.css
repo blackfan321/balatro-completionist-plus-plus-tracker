@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'pixelFont';
+  src: url('/static/fonts/m6x11plus.ttf') format('truetype');
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  display: flex;
+  width: fit-content;
+  min-height: 100%;
+  flex-direction: row;
+  padding: 0 1rem;
+  margin: 0 auto;
+  background-color: #56A887;
+  font-family: 'pixelFont';
+  gap: 1rem;
+  -ms-overflow-style: none;
+}
+
+#background {
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  pointer-events: none;
+}

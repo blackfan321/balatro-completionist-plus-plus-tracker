@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "j-8-ball",
+    "name": "8 Ball",
+    "description": "<div class=\"joker-description\"><span class=\"text-green\">1 in 4</span> chance for each<br>played <span class=\"text-attention\">8</span> to create a<br><span class=\"text-tarot\">Tarot</span> card when scored<br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 1,
+    "image": "8-ball.png",
+    "in-game-name": "j_8_ball"
+  },
+  {
+    "id": "j-abstract-joker",
+    "name": "Abstract Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+3</span> Mult for<br>each <span class=\"text-attention\">Joker</span> card<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "abstract-joker.png",
+    "in-game-name": "j_abstract"
+  },
+  {
+    "id": "j-acrobat",
+    "name": "Acrobat",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3</span> Mult on <span class=\"text-attention\">final</span><br><span class=\"text-attention\">hand</span> of round</div>",
+    "rarity": 2,
+    "image": "acrobat.png",
+    "in-game-name": "j_acrobat"
+  },
+  {
+    "id": "j-ancient-joker",
+    "name": "Ancient Joker",
+    "description": "<div class=\"joker-description\">Each played card with<br><span class=\"text-variable\">[suit]</span> gives<br><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1.5</span> Mult when scored,<br><span class=\"size-0-8\">suit changes at end of round</span></div>",
+    "rarity": 3,
+    "image": "ancient-joker.png",
+    "in-game-name": "j_ancient"
+  },
+  {
+    "id": "j-arrowhead",
+    "name": "Arrowhead",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-spades\">Spade</span> suit give<br><span class=\"text-chips\">+50</span> Chips when scored</div>",
+    "rarity": 2,
+    "image": "arrowhead.png",
+    "in-game-name": "j_arrowhead"
+  },
+  {
+    "id": "j-astronomer",
+    "name": "Astronomer",
+    "description": "<div class=\"joker-description\">All <span class=\"text-planet\">Planet</span> cards and<br><span class=\"text-planet\">Celestial Packs</span> in<br>the shop are <span class=\"text-attention\">free</span></div>",
+    "rarity": 2,
+    "image": "astronomer.png",
+    "in-game-name": "j_astronomer"
+  },
+  {
+    "id": "j-banner",
+    "name": "Banner",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+30</span> Chips for<br>each remaining<br><span class=\"text-attention\">discard</span></div>",
+    "rarity": 1,
+    "image": "banner.png",
+    "in-game-name": "j_banner"
+  },
+  {
+    "id": "j-baron",
+    "name": "Baron",
+    "description": "<div class=\"joker-description\">Each <span class=\"text-attention\">King</span><br>held in hand<br>gives <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1.5</span> Mult</div>",
+    "rarity": 3,
+    "image": "baron.png",
+    "in-game-name": "j_baron"
+  },
+  {
+    "id": "j-baseball-card",
+    "name": "Baseball Card",
+    "description": "<div class=\"joker-description\"><span class=\"text-green\">Uncommon</span> Jokers<br>each give <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1.5</span> Mult</div>",
+    "rarity": 3,
+    "image": "baseball-card.png",
+    "in-game-name": "j_baseball"
+  },
+  {
+    "id": "j-blackboard",
+    "name": "Blackboard",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3</span> Mult if all<br>cards held in hand<br>are <span class=\"text-spades\">Spades</span> or <span class=\"text-clubs\">Clubs</span></div>",
+    "rarity": 2,
+    "image": "blackboard.png",
+    "in-game-name": "j_blackboard"
+  },
+  {
+    "id": "j-bloodstone",
+    "name": "Bloodstone",
+    "description": "<div class=\"joker-description\"><span class=\"text-green\">1 in 2</span> chance for<br>played cards with<br><span class=\"text-hearts\">Heart</span> suit to give<br><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1.5</span> Mult when scored</div>",
+    "rarity": 2,
+    "image": "bloodstone.png",
+    "in-game-name": "j_bloodstone"
+  },
+  {
+    "id": "j-blue-joker",
+    "name": "Blue Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+2</span> Chips for each<br>remaining card in <span class=\"text-attention\">deck</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "blue-joker.png",
+    "in-game-name": "j_blue_joker"
+  },
+  {
+    "id": "j-blueprint",
+    "name": "Blueprint",
+    "description": "<div class=\"joker-description\">Copies ability of<br><span class=\"text-attention\">Joker</span> to the right</div>",
+    "rarity": 3,
+    "image": "blueprint.png",
+    "in-game-name": "j_blueprint"
+  },
+  {
+    "id": "j-bootstraps",
+    "name": "Bootstraps",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+2</span> Mult for every<br><span class=\"text-money\">$5</span> you have<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "bootstraps.png",
+    "in-game-name": "j_bootstraps"
+  },
+  {
+    "id": "j-brainstorm",
+    "name": "Brainstorm",
+    "description": "<div class=\"joker-description\">Copies the ability<br>of leftmost <span class=\"text-attention\">Joker</span></div>",
+    "rarity": 3,
+    "image": "brainstorm.png",
+    "in-game-name": "j_brainstorm"
+  },
+  {
+    "id": "j-bull",
+    "name": "Bull",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+2</span> Chips for<br>each <span class=\"text-money\">$1</span> you have<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "bull.png",
+    "in-game-name": "j_bull"
+  },
+  {
+    "id": "j-burglar",
+    "name": "Burglar",
+    "description": "<div class=\"joker-description\">When <span class=\"text-attention\">Blind</span> is selected,<br>gain <span class=\"text-blue\">+3</span> Hands and<br><span class=\"text-attention\">lose all discards</span></div>",
+    "rarity": 2,
+    "image": "burglar.png",
+    "in-game-name": "j_burglar"
+  },
+  {
+    "id": "j-burnt-joker",
+    "name": "Burnt Joker",
+    "description": "<div class=\"joker-description\">Upgrade the level of<br>the first <span class=\"text-attention\">discarded</span><br>poker hand each round</div>",
+    "rarity": 3,
+    "image": "burnt-joker.png",
+    "in-game-name": "j_burnt"
+  },
+  {
+    "id": "j-business-card",
+    "name": "Business Card",
+    "description": "<div class=\"joker-description\">Played <span class=\"text-attention\">face</span> cards have<br>a <span class=\"text-green\">1 in 2</span> chance to<br>give <span class=\"text-money\">$2</span> when scored</div>",
+    "rarity": 1,
+    "image": "business-card.png",
+    "in-game-name": "j_business"
+  },
+  {
+    "id": "j-campfire",
+    "name": "Campfire",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.25</span> Mult<br>for each card <span class=\"text-attention\">sold</span>, resets<br>when <span class=\"text-attention\">Boss Blind</span> is defeated<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 3,
+    "image": "campfire.png",
+    "in-game-name": "j_campfire"
+  },
+  {
+    "id": "j-canio",
+    "name": "Canio",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1</span> Mult<br>when a <span class=\"text-attention\">face</span> card<br>is destroyed<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 4,
+    "image": "canio.png",
+    "in-game-name": "j_caino"
+  },
+  {
+    "id": "j-card-sharp",
+    "name": "Card Sharp",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3.0</span> Mult if played<br><span class=\"text-attention\">poker hand</span> has already<br>been played this round</div>",
+    "rarity": 2,
+    "image": "card-sharp.png",
+    "in-game-name": "j_card_sharp"
+  },
+  {
+    "id": "j-cartomancer",
+    "name": "Cartomancer",
+    "description": "<div class=\"joker-description\">Create a <span class=\"text-tarot\">Tarot</span> card<br>when <span class=\"text-attention\">Blind</span> is selected<br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 2,
+    "image": "cartomancer.png",
+    "in-game-name": "j_cartomancer"
+  },
+  {
+    "id": "j-castle",
+    "name": "Castle",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-chips\">+3</span> Chips<br>per discarded <span class=\"text-variable\">[suit]</span> card,<br>suit changes every round<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "castle.png",
+    "in-game-name": "j_castle"
+  },
+  {
+    "id": "j-cavendish",
+    "name": "Cavendish",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3.0</span> Mult<br><span class=\"text-green\">1 in 1000</span> chance this<br>card is destroyed<br>at end of round</div>",
+    "rarity": 1,
+    "image": "cavendish.png",
+    "in-game-name": "j_cavendish"
+  },
+  {
+    "id": "j-ceremonial-dagger",
+    "name": "Ceremonial Dagger",
+    "description": "<div class=\"joker-description\">When <span class=\"text-attention\">Blind</span> is selected,<br>destroy Joker to the right<br>and permanently add <span class=\"text-attention\">double</span><br>its sell value to this <span class=\"text-red\">Mult</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "ceremonial-dagger.png",
+    "in-game-name": "j_ceremonial"
+  },
+  {
+    "id": "j-certificate",
+    "name": "Certificate",
+    "description": "<div class=\"joker-description\">When round begins,<br>add a random <span class=\"text-attention\">playing</span><br><span class=\"text-attention\">card</span> with a random<br><span class=\"text-attention\">seal</span> to your hand</div>",
+    "rarity": 2,
+    "image": "certificate.png",
+    "in-game-name": "j_certificate"
+  },
+  {
+    "id": "j-chaos-the-clown",
+    "name": "Chaos the Clown",
+    "description": "<div class=\"joker-description\"><span class=\"text-attention\">1</span> free <span class=\"text-green\">Reroll</span><br>per shop</div>",
+    "rarity": 1,
+    "image": "chaos-the-clown.png",
+    "in-game-name": "j_chaos"
+  },
+  {
+    "id": "j-chicot",
+    "name": "Chicot",
+    "description": "<div class=\"joker-description\">Disables effect of<br>every <span class=\"text-attention\">Boss Blind</span></div>",
+    "rarity": 4,
+    "image": "chicot.png",
+    "in-game-name": "j_chicot"
+  },
+  {
+    "id": "j-clever-joker",
+    "name": "Clever Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+80</span> Chips if played<br>hand contains<br>a <span class=\"text-attention\">Two Pair</span></div>",
+    "rarity": 1,
+    "image": "clever-joker.png",
+    "in-game-name": "j_clever"
+  },
+  {
+    "id": "j-cloud-9",
+    "name": "Cloud 9",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$1</span> for each<br><span class=\"text-attention\">9</span> in your <span class=\"text-attention\">full deck</span><br>at end of round<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "cloud-9.png",
+    "in-game-name": "j_cloud_9"
+  },
+  {
+    "id": "j-constellation",
+    "name": "Constellation",
+    "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.1</span> Mult every time<br>a <span class=\"text-planet\">Planet</span> card is used<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "constellation.png",
+    "in-game-name": "j_constellation"
+  },
+  {
+    "id": "j-crafty-joker",
+    "name": "Crafty Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+80</span> Chips if played<br>hand contains<br>a <span class=\"text-attention\">Flush</span></div>",
+    "rarity": 1,
+    "image": "crafty-joker.png",
+    "in-game-name": "j_crafty"
+  },
+  {
+    "id": "j-crazy-joker",
+    "name": "Crazy Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+12</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Straight</span></div>",
+    "rarity": 1,
+    "image": "crazy-joker.png",
+    "in-game-name": "j_crazy"
+  },
+  {
+    "id": "j-credit-card",
+    "name": "Credit Card",
+    "description": "<div class=\"joker-description\">Go up to<br><span class=\"text-red\">-$20</span> in debt</div>",
+    "rarity": 1,
+    "image": "credit-card.png",
+    "in-game-name": "j_credit_card"
+  },
+  {
+    "id": "j-delayed-gratification",
+    "name": "Delayed Gratification",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$2</span> per <span class=\"text-attention\">discard</span> if<br>no discards are used<br>by end of the round</div>",
+    "rarity": 1,
+    "image": "delayed-gratification.png",
+    "in-game-name": "j_delayed_grat"
+  },
+  {
+    "id": "j-devious-joker",
+    "name": "Devious Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+100</span> Chips if played<br>hand contains<br>a <span class=\"text-attention\">Straight</span></div>",
+    "rarity": 1,
+    "image": "devious-joker.png",
+    "in-game-name": "j_devious"
+  },
+  {
+    "id": "j-diet-cola",
+    "name": "Diet Cola",
+    "description": "<div class=\"joker-description\">Sell this card to<br>create a free<br><span class=\"text-attention\">Double Tag</span></div>",
+    "rarity": 2,
+    "image": "diet-cola.png",
+    "in-game-name": "j_diet_cola"
+  },
+  {
+    "id": "j-dna",
+    "name": "DNA",
+    "description": "<div class=\"joker-description\">If <span class=\"text-attention\">first hand</span> of round<br>has only <span class=\"text-attention\">1</span> card, add a<br>permanent copy to deck<br>and draw it to <span class=\"text-attention\">hand</span></div>",
+    "rarity": 3,
+    "image": "dna.png",
+    "in-game-name": "j_dna"
+  },
+  {
+    "id": "j-driver-s-license",
+    "name": "Driver's License",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3</span> Mult if you have<br>at least <span class=\"text-attention\">16</span> Enhanced<br>cards in your full deck<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 3,
+    "image": "driver-s-license.png",
+    "in-game-name": "j_drivers_license"
+  },
+  {
+    "id": "j-droll-joker",
+    "name": "Droll Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+10</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Flush</span></div>",
+    "rarity": 1,
+    "image": "droll-joker.png",
+    "in-game-name": "j_droll"
+  },
+  {
+    "id": "j-drunkard",
+    "name": "Drunkard",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+1</span> discard<br>each round</div>",
+    "rarity": 1,
+    "image": "drunkard.png",
+    "in-game-name": "j_drunkard"
+  },
+  {
+    "id": "j-dusk",
+    "name": "Dusk",
+    "description": "<div class=\"joker-description\">Retrigger all played<br>cards in <span class=\"text-attention\">final</span><br><span class=\"text-attention\">hand</span> of round</div>",
+    "rarity": 2,
+    "image": "dusk.png",
+    "in-game-name": "j_dusk"
+  },
+  {
+    "id": "j-egg",
+    "name": "Egg",
+    "description": "<div class=\"joker-description\">Gains <span class=\"text-money\">$3</span> of<br><span class=\"text-attention\">sell value</span> at<br>end of round</div>",
+    "rarity": 1,
+    "image": "egg.png",
+    "in-game-name": "j_egg"
+  },
+  {
+    "id": "j-erosion",
+    "name": "Erosion",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+4</span> Mult for each<br>card below <span class=\"text-attention\">52</span><br>in your full deck<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "erosion.png",
+    "in-game-name": "j_erosion"
+  },
+  {
+    "id": "j-even-steven",
+    "name": "Even Steven",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-attention\">even</span> rank give<br><span class=\"text-mult\">+4</span> Mult when scored<br><span class=\"text-inactive\">(10, 8, 6, 4, 2)</span></div>",
+    "rarity": 1,
+    "image": "even-steven.png",
+    "in-game-name": "j_even_steven"
+  },
+  {
+    "id": "j-faceless-joker",
+    "name": "Faceless Joker",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$5</span> if <span class=\"text-attention\">3</span> or<br>more <span class=\"text-attention\">face cards</span><br>are discarded<br>at the same time</div>",
+    "rarity": 1,
+    "image": "faceless-joker.png",
+    "in-game-name": "j_faceless"
+  },
+  {
+    "id": "j-fibonacci",
+    "name": "Fibonacci",
+    "description": "<div class=\"joker-description\">Each played <span class=\"text-attention\">Ace</span>,<br><span class=\"text-attention\">2</span>, <span class=\"text-attention\">3</span>, <span class=\"text-attention\">5</span>, or <span class=\"text-attention\">8</span> gives<br><span class=\"text-mult\">+8</span> Mult when scored</div>",
+    "rarity": 2,
+    "image": "fibonacci.png",
+    "in-game-name": "j_fibonacci"
+  },
+  {
+    "id": "j-flash-card",
+    "name": "Flash Card",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-mult\">+2</span> Mult<br>per <span class=\"text-attention\">reroll</span> in the shop<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "flash-card.png",
+    "in-game-name": "j_flash"
+  },
+  {
+    "id": "j-flower-pot",
+    "name": "Flower Pot",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3</span> Mult if poker<br>hand contains a<br><span class=\"text-diamonds\">Diamond</span> card, <span class=\"text-clubs\">Club</span> card,<br><span class=\"text-hearts\">Heart</span> card, and <span class=\"text-spades\">Spade</span> card</div>",
+    "rarity": 2,
+    "image": "flower-pot.png",
+    "in-game-name": "j_flower_pot"
+  },
+  {
+    "id": "j-fortune-teller",
+    "name": "Fortune Teller",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+1</span> Mult per <span class=\"text-purple\">Tarot</span><br>card used this run<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "fortune-teller.png",
+    "in-game-name": "j_fortune_teller"
+  },
+  {
+    "id": "j-four-fingers",
+    "name": "Four Fingers",
+    "description": "<div class=\"joker-description\">All <span class=\"text-attention\">Flushes</span> and<br><span class=\"text-attention\">Straights</span> can be<br>made with <span class=\"text-attention\">4</span> cards</div>",
+    "rarity": 2,
+    "image": "four-fingers.png",
+    "in-game-name": "j_four_fingers"
+  },
+  {
+    "id": "j-gift-card",
+    "name": "Gift Card",
+    "description": "<div class=\"joker-description\">Add <span class=\"text-money\">$1</span> of <span class=\"text-attention\">sell value</span><br>to every <span class=\"text-attention\">Joker</span> and<br><span class=\"text-attention\">Consumable</span> card at<br>end of round</div>",
+    "rarity": 2,
+    "image": "gift-card.png",
+    "in-game-name": "j_gift"
+  },
+  {
+    "id": "j-glass-joker",
+    "name": "Glass Joker",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.75</span> Mult<br>for every <span class=\"text-attention\">Glass Card</span><br>that is destroyed<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "glass-joker.png",
+    "in-game-name": "j_glass"
+  },
+  {
+    "id": "j-gluttonous-joker",
+    "name": "Gluttonous Joker",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-clubs\">Clubs</span> suit give<br><span class=\"text-mult\">+3</span> Mult when scored</div>",
+    "rarity": 1,
+    "image": "gluttonous-joker.png",
+    "in-game-name": "j_gluttenous_joker"
+  },
+  {
+    "id": "j-golden-joker",
+    "name": "Golden Joker",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$4</span> at<br>end of round</div>",
+    "rarity": 1,
+    "image": "golden-joker.png",
+    "in-game-name": "j_golden"
+  },
+  {
+    "id": "j-golden-ticket",
+    "name": "Golden Ticket",
+    "description": "<div class=\"joker-description\">Played <span class=\"text-attention\">Gold</span> cards<br>earn <span class=\"text-money\">$4</span> when scored</div>",
+    "rarity": 1,
+    "image": "golden-ticket.png",
+    "in-game-name": "j_ticket"
+  },
+  {
+    "id": "j-greedy-joker",
+    "name": "Greedy Joker",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-diamonds\">Diamonds</span> suit give<br><span class=\"text-mult\">+3</span> Mult when scored</div>",
+    "rarity": 1,
+    "image": "greedy-joker.png",
+    "in-game-name": "j_greedy_joker"
+  },
+  {
+    "id": "j-green-joker",
+    "name": "Green Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+1</span> Mult per hand played<br><span class=\"text-mult\">-1</span> Mult per discard<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "green-joker.png",
+    "in-game-name": "j_green_joker"
+  },
+  {
+    "id": "j-gros-michel",
+    "name": "Gros Michel",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+15</span> Mult<br><span class=\"text-green\">1 in 6</span> chance this<br>card is destroyed<br>at end of round</div>",
+    "rarity": 1,
+    "image": "gros-michel.png",
+    "in-game-name": "j_gros_michel"
+  },
+  {
+    "id": "j-hack",
+    "name": "Hack",
+    "description": "<div class=\"joker-description\">Retrigger<br>each played<br><span class=\"text-attention\">2</span>, <span class=\"text-attention\">3</span>, <span class=\"text-attention\">4</span>, or <span class=\"text-attention\">5</span></div>",
+    "rarity": 2,
+    "image": "hack.png",
+    "in-game-name": "j_hack"
+  },
+  {
+    "id": "j-half-joker",
+    "name": "Half Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+20</span> Mult if played<br>hand contains<br><span class=\"text-attention\">3</span> or fewer cards</div>",
+    "rarity": 1,
+    "image": "half-joker.png",
+    "in-game-name": "j_half"
+  },
+  {
+    "id": "j-hallucination",
+    "name": "Hallucination",
+    "description": "<div class=\"joker-description\"><span class=\"text-green\">1 in 2</span> chance to create<br>a <span class=\"text-tarot\">Tarot</span> card when any<br><span class=\"text-attention\">Booster Pack</span> is opened<br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 1,
+    "image": "hallucination.png",
+    "in-game-name": "j_hallucination"
+  },
+  {
+    "id": "j-hanging-chad",
+    "name": "Hanging Chad",
+    "description": "<div class=\"joker-description\">Retrigger <span class=\"text-attention\">first</span> played<br>card used in scoring<br><span class=\"text-attention\">2</span> additional times</div>",
+    "rarity": 1,
+    "image": "hanging-chad.png",
+    "in-game-name": "j_hanging_chad"
+  },
+  {
+    "id": "j-hiker",
+    "name": "Hiker",
+    "description": "<div class=\"joker-description\">Every played <span class=\"text-attention\">card</span><br>permanently gains<br><span class=\"text-chips\">+5</span> Chips when scored</div>",
+    "rarity": 2,
+    "image": "hiker.png",
+    "in-game-name": "j_hiker"
+  },
+  {
+    "id": "j-hit-the-road",
+    "name": "Hit the Road",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.5</span> Mult<br>for every <span class=\"text-attention\">Jack</span><br>discarded this round<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 3,
+    "image": "hit-the-road.png",
+    "in-game-name": "j_hit_the_road"
+  },
+  {
+    "id": "j-hologram",
+    "name": "Hologram",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.25</span> Mult<br>every time a <span class=\"text-attention\">playing card</span><br>is added to your deck<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "hologram.png",
+    "in-game-name": "j_hologram"
+  },
+  {
+    "id": "j-ice-cream",
+    "name": "Ice Cream",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+100</span> Chips<br><span class=\"text-chips\">-5</span> Chips for<br>every hand played</div>",
+    "rarity": 1,
+    "image": "ice-cream.png",
+    "in-game-name": "j_ice_cream"
+  },
+  {
+    "id": "j-invisible-joker",
+    "name": "Invisible Joker",
+    "description": "<div class=\"joker-description\">After <span class=\"text-attention\">2</span> rounds,<br>sell this card to<br><span class=\"text-attention\">Duplicate</span> a random Joker<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 3,
+    "image": "invisible-joker.png",
+    "in-game-name": "j_invisible"
+  },
+  {
+    "id": "j-joker",
+    "name": "Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+4</span> Mult</div>",
+    "rarity": 1,
+    "image": "joker.png",
+    "in-game-name": "j_joker"
+  },
+  {
+    "id": "j-joker-stencil",
+    "name": "Joker Stencil",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1</span> Mult for each<br>empty <span class=\"text-attention\">Joker</span> slot<br><span class=\"size-0-8\">Joker Stencil included</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "joker-stencil.png",
+    "in-game-name": "j_stencil"
+  },
+  {
+    "id": "j-jolly-joker",
+    "name": "Jolly Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+8</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Pair</span></div>",
+    "rarity": 1,
+    "image": "jolly-joker.png",
+    "in-game-name": "j_jolly"
+  },
+  {
+    "id": "j-juggler",
+    "name": "Juggler",
+    "description": "<div class=\"joker-description\"><span class=\"text-attention\">+1</span> hand size</div>",
+    "rarity": 1,
+    "image": "juggler.png",
+    "in-game-name": "j_juggler"
+  },
+  {
+    "id": "j-loyalty-card",
+    "name": "Loyalty Card",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X4.0</span> Mult every<br><span class=\"text-attention\">6</span> hands played<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "loyalty-card.png",
+    "in-game-name": "j_loyalty_card"
+  },
+  {
+    "id": "j-luchador",
+    "name": "Luchador",
+    "description": "<div class=\"joker-description\">Sell this card to<br>disable the current<br><span class=\"text-attention\">Boss Blind</span></div>",
+    "rarity": 2,
+    "image": "luchador.png",
+    "in-game-name": "j_luchador"
+  },
+  {
+    "id": "j-lucky-cat",
+    "name": "Lucky Cat",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.25</span> Mult<br>every time a <span class=\"text-attention\">Lucky</span> card<br><span class=\"text-green\">successfully</span> triggers<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "lucky-cat.png",
+    "in-game-name": "j_lucky_cat"
+  },
+  {
+    "id": "j-lusty-joker",
+    "name": "Lusty Joker",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-hearts\">Hearts</span> suit give<br><span class=\"text-mult\">+3</span> Mult when scored</div>",
+    "rarity": 1,
+    "image": "lusty-joker.png",
+    "in-game-name": "j_lusty_joker"
+  },
+  {
+    "id": "j-mad-joker",
+    "name": "Mad Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+10</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Two Pair</span></div>",
+    "rarity": 1,
+    "image": "mad-joker.png",
+    "in-game-name": "j_mad"
+  },
+  {
+    "id": "j-madness",
+    "name": "Madness",
+    "description": "<div class=\"joker-description\">When <span class=\"text-attention\">Small Blind</span> or <span class=\"text-attention\">Big Blind</span><br>is selected, gain <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.5</span> Mult<br>and <span class=\"text-attention\">destroy</span> a random Joker<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "madness.png",
+    "in-game-name": "j_madness"
+  },
+  {
+    "id": "j-mail-in-rebate",
+    "name": "Mail-In Rebate",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$5</span> for each<br>discarded <span class=\"text-attention\">2</span>, rank<br>changes every round</div>",
+    "rarity": 1,
+    "image": "mail-in-rebate.png",
+    "in-game-name": "j_mail"
+  },
+  {
+    "id": "j-marble-joker",
+    "name": "Marble Joker",
+    "description": "<div class=\"joker-description\">Adds one <span class=\"text-attention\">Stone</span> card<br>to deck when<br><span class=\"text-attention\">Blind</span> is selected</div>",
+    "rarity": 2,
+    "image": "marble-joker.png",
+    "in-game-name": "j_marble"
+  },
+  {
+    "id": "j-matador",
+    "name": "Matador",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$8</span> if played<br>hand triggers the<br><span class=\"text-attention\">Boss Blind</span> ability</div>",
+    "rarity": 2,
+    "image": "matador.png",
+    "in-game-name": "j_matador"
+  },
+  {
+    "id": "j-merry-andy",
+    "name": "Merry Andy",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+3</span> discards<br>each round,<br><span class=\"text-red\">-1</span> hand size</div>",
+    "rarity": 2,
+    "image": "merry-andy.png",
+    "in-game-name": "j_merry_andy"
+  },
+  {
+    "id": "j-midas-mask",
+    "name": "Midas Mask",
+    "description": "<div class=\"joker-description\">All played <span class=\"text-attention\">face</span> cards<br>become <span class=\"text-attention\">Gold</span> cards<br>when scored</div>",
+    "rarity": 2,
+    "image": "midas-mask.png",
+    "in-game-name": "j_midas_mask"
+  },
+  {
+    "id": "j-mime",
+    "name": "Mime",
+    "description": "<div class=\"joker-description\">Retrigger all<br>card <span class=\"text-attention\">held in</span><br><span class=\"text-attention\">hand</span> abilities</div>",
+    "rarity": 2,
+    "image": "mime.png",
+    "in-game-name": "j_mime"
+  },
+  {
+    "id": "j-misprint",
+    "name": "Misprint",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+[0 to 23]</span> Mult</div>",
+    "rarity": 1,
+    "image": "misprint.png",
+    "in-game-name": "j_misprint"
+  },
+  {
+    "id": "j-mr-bones",
+    "name": "Mr. Bones",
+    "description": "<div class=\"joker-description\">Prevents Death<br>if chips scored<br>are at least <span class=\"text-attention\">25%</span><br>of required chips<br><span class=\"size-1-1 text-red enhanced-text\">self destructs</span></div>",
+    "rarity": 2,
+    "image": "mr-bones.png",
+    "in-game-name": "j_mr_bones"
+  },
+  {
+    "id": "j-mystic-summit",
+    "name": "Mystic Summit",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+15</span> Mult when<br><span class=\"text-attention\">0</span> discards<br>remaining</div>",
+    "rarity": 1,
+    "image": "mystic-summit.png",
+    "in-game-name": "j_mystic_summit"
+  },
+  {
+    "id": "j-obelisk",
+    "name": "Obelisk",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.2</span> Mult<br>per <span class=\"text-attention\">consecutive</span> hand played<br>without playing your<br>most played <span class=\"text-attention\">poker hand</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 3,
+    "image": "obelisk.png",
+    "in-game-name": "j_obelisk"
+  },
+  {
+    "id": "j-odd-todd",
+    "name": "Odd Todd",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-attention\">odd</span> rank give<br><span class=\"text-chips\">+31</span> Chips when scored<br><span class=\"text-inactive\">(A, 9, 7, 5, 3)</span></div>",
+    "rarity": 1,
+    "image": "odd-todd.png",
+    "in-game-name": "j_odd_todd"
+  },
+  {
+    "id": "j-onyx-agate",
+    "name": "Onyx Agate",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-clubs\">Club</span> suit give<br><span class=\"text-mult\">+7</span> Mult when scored</div>",
+    "rarity": 2,
+    "image": "onyx-agate.png",
+    "in-game-name": "j_onyx_agate"
+  },
+  {
+    "id": "j-oops-all-6s",
+    "name": "Oops! All 6s",
+    "description": "<div class=\"joker-description\">Doubles all <span class=\"text-attention\">listed</span><br><span class=\"text-green c-e:1 c-s:1.1\">probabilities</span><br><span class=\"text-inactive\">(ex: </span><span class=\"text-green\">1 in 3</span><span class=\"text-inactive\"> -> </span><span class=\"text-green\">2 in 3</span><span class=\"text-inactive\">)</span></div>",
+    "rarity": 2,
+    "image": "oops-all-6s.png",
+    "in-game-name": "j_oops"
+  },
+  {
+    "id": "j-pareidolia",
+    "name": "Pareidolia",
+    "description": "<div class=\"joker-description\">All cards are<br>considered<br><span class=\"text-attention\">face</span> cards</div>",
+    "rarity": 2,
+    "image": "pareidolia.png",
+    "in-game-name": "j_pareidolia"
+  },
+  {
+    "id": "j-perkeo",
+    "name": "Perkeo",
+    "description": "<div class=\"joker-description\">Creates a <span class=\"text-dark-edition\">Negative</span> copy of<br><span class=\"text-attention\">1</span> random <span class=\"text-attention\">consumable</span><br>card in your possession<br>at the end of the <span class=\"text-attention\">shop</span></div>",
+    "rarity": 4,
+    "image": "perkeo.png",
+    "in-game-name": "j_perkeo"
+  },
+  {
+    "id": "j-photograph",
+    "name": "Photograph",
+    "description": "<div class=\"joker-description\">First played <span class=\"text-attention\">face</span><br>card gives <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult<br>when scored</div>",
+    "rarity": 1,
+    "image": "photograph.png",
+    "in-game-name": "j_photograph"
+  },
+  {
+    "id": "j-popcorn",
+    "name": "Popcorn",
+    "description": "<div class=\"joker-description\"><span class=\"text-mult\">+20</span> Mult<br><span class=\"text-mult\">-4</span> Mult per<br>round played</div>",
+    "rarity": 1,
+    "image": "popcorn.png",
+    "in-game-name": "j_popcorn"
+  },
+  {
+    "id": "j-raised-fist",
+    "name": "Raised Fist",
+    "description": "<div class=\"joker-description\">Adds <span class=\"text-attention\">double</span> the rank<br>of <span class=\"text-attention\">lowest</span> ranked card<br>held in hand to Mult</div>",
+    "rarity": 1,
+    "image": "raised-fist.png",
+    "in-game-name": "j_raised_fist"
+  },
+  {
+    "id": "j-ramen",
+    "name": "Ramen",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult,<br>loses <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.01</span> Mult<br>per <span class=\"text-attention\">card</span> discarded</div>",
+    "rarity": 2,
+    "image": "ramen.png",
+    "in-game-name": "j_ramen"
+  },
+  {
+    "id": "j-red-card",
+    "name": "Red Card",
+    "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"text-red\">+3</span> Mult when any<br><span class=\"text-attention\">Booster Pack</span> is skipped<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "red-card.png",
+    "in-game-name": "j_red_card"
+  },
+  {
+    "id": "j-reserved-parking",
+    "name": "Reserved Parking",
+    "description": "<div class=\"joker-description\">Each <span class=\"text-attention\">face</span> card<br>held in hand has<br>a <span class=\"text-green\">1 in 2</span> chance<br>to give <span class=\"text-money\">$1</span></div>",
+    "rarity": 1,
+    "image": "reserved-parking.png",
+    "in-game-name": "j_reserved_parking"
+  },
+  {
+    "id": "j-ride-the-bus",
+    "name": "Ride the Bus",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-mult\">+1</span> Mult<br>per <span class=\"text-attention\">consecutive</span> hand<br>played without a<br>scoring <span class=\"text-attention\">face</span> card<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "ride-the-bus.png",
+    "in-game-name": "j_ride_the_bus"
+  },
+  {
+    "id": "j-riff-raff",
+    "name": "Riff-Raff",
+    "description": "<div class=\"joker-description\">When <span class=\"text-attention\">Blind</span> is selected,<br>create <span class=\"text-attention\">2 </span><span class=\"text-blue\">Common</span><span class=\"text-attention\"> Jokers</span><br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 1,
+    "image": "riff-raff.png",
+    "in-game-name": "j_riff_raff"
+  },
+  {
+    "id": "j-rocket",
+    "name": "Rocket",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$1</span> at end of round<br>Payout increases by <span class=\"text-money\">$2</span><br>when <span class=\"text-attention\">Boss Blind</span> is defeated</div>",
+    "rarity": 2,
+    "image": "rocket.png",
+    "in-game-name": "j_rocket"
+  },
+  {
+    "id": "j-rough-gem",
+    "name": "Rough Gem",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-diamonds\">Diamond</span> suit earn<br><span class=\"text-money\">$1</span> when scored</div>",
+    "rarity": 2,
+    "image": "rough-gem.png",
+    "in-game-name": "j_rough_gem"
+  },
+  {
+    "id": "j-runner",
+    "name": "Runner",
+    "description": "<div class=\"joker-description\">Gains <span class=\"text-chips\">+15</span> Chips<br>if played hand<br>contains a <span class=\"text-attention\">Straight</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "runner.png",
+    "in-game-name": "j_runner"
+  },
+  {
+    "id": "j-satellite",
+    "name": "Satellite",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$1</span> at end of<br>round per unique <span class=\"text-planet\">Planet</span><br>card used this run<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "satellite.png",
+    "in-game-name": "j_satellite"
+  },
+  {
+    "id": "j-scary-face",
+    "name": "Scary Face",
+    "description": "<div class=\"joker-description\">Played <span class=\"text-attention\">face</span> cards<br>give <span class=\"text-chips\">+30</span> Chips<br>when scored</div>",
+    "rarity": 1,
+    "image": "scary-face.png",
+    "in-game-name": "j_scary_face"
+  },
+  {
+    "id": "j-scholar",
+    "name": "Scholar",
+    "description": "<div class=\"joker-description\">Played <span class=\"text-attention\">Aces</span><br>give <span class=\"text-chips\">+20</span> Chips<br>and <span class=\"text-mult\">+4</span> Mult<br>when scored</div>",
+    "rarity": 1,
+    "image": "scholar.png",
+    "in-game-name": "j_scholar"
+  },
+  {
+    "id": "j-seance",
+    "name": "Seance",
+    "description": "<div class=\"joker-description\">If <span class=\"text-attention\">poker hand</span> is a<br><span class=\"text-attention\">Straight Flush</span>, create a<br>random <span class=\"text-spectral\">Spectral</span> card<br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 2,
+    "image": "seance.png",
+    "in-game-name": "j_seance"
+  },
+  {
+    "id": "j-seeing-double",
+    "name": "Seeing Double",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult if played<br>hand has a scoring<br><span class=\"text-clubs\">Club</span> card and a scoring<br>card of any other <span class=\"text-attention\">suit</span></div>",
+    "rarity": 2,
+    "image": "seeing-double.png",
+    "in-game-name": "j_seeing_double"
+  },
+  {
+    "id": "j-seltzer",
+    "name": "Seltzer",
+    "description": "<div class=\"joker-description\">Retrigger all<br>cards played for<br>the next <span class=\"text-attention\">10</span> hands</div>",
+    "rarity": 2,
+    "image": "seltzer.png",
+    "in-game-name": "j_selzer"
+  },
+  {
+    "id": "j-shoot-the-moon",
+    "name": "Shoot the Moon",
+    "description": "<div class=\"joker-description\">Each <span class=\"text-attention\">Queen</span><br>held in hand<br>gives <span class=\"text-mult\">+13</span> Mult</div>",
+    "rarity": 1,
+    "image": "shoot-the-moon.png",
+    "in-game-name": "j_shoot_the_moon"
+  },
+  {
+    "id": "j-shortcut",
+    "name": "Shortcut",
+    "description": "<div class=\"joker-description\">Allows <span class=\"text-attention\">Straights</span> to be<br>made with gaps of <span class=\"text-attention\">1 rank</span><br><span class=\"text-inactive\">(ex: </span><span class=\"text-attention\">10 8 6 5 3</span><span class=\"text-inactive\">)</span></div>",
+    "rarity": 2,
+    "image": "shortcut.png",
+    "in-game-name": "j_shortcut"
+  },
+  {
+    "id": "j-showman",
+    "name": "Showman",
+    "description": "<div class=\"joker-description\"><span class=\"text-attention\">Joker</span>, <span class=\"text-tarot\">Tarot</span>, <span class=\"text-planet\">Planet</span>,<br>and <span class=\"text-spectral\">Spectral</span> cards may<br>appear multiple times</div>",
+    "rarity": 2,
+    "image": "showman.png",
+    "in-game-name": "j_ring_master"
+  },
+  {
+    "id": "j-sixth-sense",
+    "name": "Sixth Sense",
+    "description": "<div class=\"joker-description\">If <span class=\"text-attention\">first hand</span> of round is<br>a single <span class=\"text-attention\">6</span>, destroy it and<br>create a <span class=\"text-spectral\">Spectral</span> card<br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 2,
+    "image": "sixth-sense.png",
+    "in-game-name": "j_sixth_sense"
+  },
+  {
+    "id": "j-sly-joker",
+    "name": "Sly Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+50</span> Chips if played<br>hand contains<br>a <span class=\"text-attention\">Pair</span></div>",
+    "rarity": 1,
+    "image": "sly-joker.png",
+    "in-game-name": "j_sly"
+  },
+  {
+    "id": "j-smeared-joker",
+    "name": "Smeared Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-hearts\">Hearts</span> and <span class=\"text-diamonds\">Diamonds</span><br>count as the same suit,<br><span class=\"text-spades\">Spades</span> and <span class=\"text-clubs\">Clubs</span><br>count as the same suit</div>",
+    "rarity": 2,
+    "image": "smeared-joker.png",
+    "in-game-name": "j_smeared"
+  },
+  {
+    "id": "j-smiley-face",
+    "name": "Smiley Face",
+    "description": "<div class=\"joker-description\">Played <span class=\"text-attention\">face</span> cards<br>give <span class=\"text-mult\">+5</span> Mult<br>when scored</div>",
+    "rarity": 1,
+    "image": "smiley-face.png",
+    "in-game-name": "j_smiley"
+  },
+  {
+    "id": "j-sock-and-buskin",
+    "name": "Sock and Buskin",
+    "description": "<div class=\"joker-description\">Retrigger all<br>played <span class=\"text-attention\">face</span> cards</div>",
+    "rarity": 2,
+    "image": "sock-and-buskin.png",
+    "in-game-name": "j_sock_and_buskin"
+  },
+  {
+    "id": "j-space-joker",
+    "name": "Space Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-green\">1 in 4</span> chance to<br>upgrade level of<br>played <span class=\"text-attention\">poker hand</span></div>",
+    "rarity": 2,
+    "image": "space-joker.png",
+    "in-game-name": "j_space"
+  },
+  {
+    "id": "j-spare-trousers",
+    "name": "Spare Trousers",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-mult\">+2</span> Mult<br>if played hand contains<br>a <span class=\"text-attention\">Two Pair</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "spare-trousers.png",
+    "in-game-name": "j_trousers"
+  },
+  {
+    "id": "j-splash",
+    "name": "Splash",
+    "description": "<div class=\"joker-description\">Every <span class=\"text-attention\">played card</span><br>counts in scoring</div>",
+    "rarity": 1,
+    "image": "splash.png",
+    "in-game-name": "j_splash"
+  },
+  {
+    "id": "j-square-joker",
+    "name": "Square Joker",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-chips\">+4</span> Chips<br>if played hand has<br>exactly <span class=\"text-attention\">4</span> cards<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "square-joker.png",
+    "in-game-name": "j_square"
+  },
+  {
+    "id": "j-steel-joker",
+    "name": "Steel Joker",
+    "description": "<div class=\"joker-description\">Gives <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.2</span> Mult<br>for each <span class=\"text-attention\">Steel Card</span><br>in your <span class=\"text-attention\">full deck</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "steel-joker.png",
+    "in-game-name": "j_steel_joker"
+  },
+  {
+    "id": "j-stone-joker",
+    "name": "Stone Joker",
+    "description": "<div class=\"joker-description\">Gives <span class=\"text-chips\">+25</span> Chips for<br>each <span class=\"text-attention\">Stone Card</span><br>in your <span class=\"text-attention\">full deck</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "stone-joker.png",
+    "in-game-name": "j_stone"
+  },
+  {
+    "id": "j-stuntman",
+    "name": "Stuntman",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+250</span> Chips,<br><span class=\"text-attention\">-2</span> hand size</div>",
+    "rarity": 3,
+    "image": "stuntman.png",
+    "in-game-name": "j_stuntman"
+  },
+  {
+    "id": "j-supernova",
+    "name": "Supernova",
+    "description": "<div class=\"joker-description\">Adds the number of times<br><span class=\"text-attention\">poker hand</span> has been<br>played this run to Mult</div>",
+    "rarity": 1,
+    "image": "supernova.png",
+    "in-game-name": "j_supernova"
+  },
+  {
+    "id": "j-superposition",
+    "name": "Superposition",
+    "description": "<div class=\"joker-description\">Create a <span class=\"text-tarot\">Tarot</span> card if<br>poker hand contains an<br><span class=\"text-attention\">Ace</span> and a <span class=\"text-attention\">Straight</span><br><span class=\"text-inactive\">(Must have room)</span></div>",
+    "rarity": 1,
+    "image": "superposition.png",
+    "in-game-name": "j_superposition"
+  },
+  {
+    "id": "j-swashbuckler",
+    "name": "Swashbuckler",
+    "description": "<div class=\"joker-description\">Adds the sell value<br>of all other owned<br><span class=\"text-attention\">Jokers</span> to Mult<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 1,
+    "image": "swashbuckler.png",
+    "in-game-name": "j_swashbuckler"
+  },
+  {
+    "id": "j-the-duo",
+    "name": "The Duo",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Pair</span></div>",
+    "rarity": 3,
+    "image": "the-duo.png",
+    "in-game-name": "j_duo"
+  },
+  {
+    "id": "j-the-family",
+    "name": "The Family",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X4</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Four of a Kind</span></div>",
+    "rarity": 3,
+    "image": "the-family.png",
+    "in-game-name": "j_family"
+  },
+  {
+    "id": "j-the-idol",
+    "name": "The Idol",
+    "description": "<div class=\"joker-description\">Each played <span class=\"text-variable\">[rank]</span><br>of <span class=\"text-variable\">[suit]</span> gives<br><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult when scored<br><span class=\"size-0-8\">Card changes every round</span></div>",
+    "rarity": 2,
+    "image": "the-idol.png",
+    "in-game-name": "j_idol"
+  },
+  {
+    "id": "j-the-order",
+    "name": "The Order",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Straight</span></div>",
+    "rarity": 3,
+    "image": "the-order.png",
+    "in-game-name": "j_order"
+  },
+  {
+    "id": "j-the-tribe",
+    "name": "The Tribe",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Flush</span></div>",
+    "rarity": 3,
+    "image": "the-tribe.png",
+    "in-game-name": "j_tribe"
+  },
+  {
+    "id": "j-the-trio",
+    "name": "The Trio",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X3</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Three of a Kind</span></div>",
+    "rarity": 3,
+    "image": "the-trio.png",
+    "in-game-name": "j_trio"
+  },
+  {
+    "id": "j-throwback",
+    "name": "Throwback",
+    "description": "<div class=\"joker-description\"><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.25</span> Mult for each<br><span class=\"text-attention\">Blind</span> skipped this run<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "throwback.png",
+    "in-game-name": "j_throwback"
+  },
+  {
+    "id": "j-to-do-list",
+    "name": "To Do List",
+    "description": "<div class=\"joker-description\">Earn <span class=\"text-money\">$4</span> if <span class=\"text-attention\">poker hand</span><br>is a <span class=\"text-attention\">High Card</span>,<br>poker hand changes<br>at end of round</div>",
+    "rarity": 1,
+    "image": "to-do-list.png",
+    "in-game-name": "j_todo_list"
+  },
+  {
+    "id": "j-to-the-moon",
+    "name": "To the Moon",
+    "description": "<div class=\"joker-description\">Earn an extra <span class=\"text-money\">$1</span> of<br><span class=\"text-attention\">interest</span> for every <span class=\"text-money\">$5</span> you<br>have at end of round</div>",
+    "rarity": 2,
+    "image": "to-the-moon.png",
+    "in-game-name": "j_to_the_moon"
+  },
+  {
+    "id": "j-trading-card",
+    "name": "Trading Card",
+    "description": "<div class=\"joker-description\">If <span class=\"text-attention\">first discard</span> of round<br>has only <span class=\"text-attention\">1</span> card, destroy<br>it and earn <span class=\"text-money\">$3</span></div>",
+    "rarity": 2,
+    "image": "trading-card.png",
+    "in-game-name": "j_trading"
+  },
+  {
+    "id": "j-triboulet",
+    "name": "Triboulet",
+    "description": "<div class=\"joker-description\">Played <span class=\"text-attention\">Kings</span> and<br><span class=\"text-attention\">Queens</span> each give<br><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X2</span> Mult when scored</div>",
+    "rarity": 4,
+    "image": "triboulet.png",
+    "in-game-name": "j_triboulet"
+  },
+  {
+    "id": "j-troubadour",
+    "name": "Troubadour",
+    "description": "<div class=\"joker-description\"><span class=\"text-attention\">+2</span> hand size,<br><span class=\"text-blue\">-1</span> hand each round</div>",
+    "rarity": 2,
+    "image": "troubadour.png",
+    "in-game-name": "j_troubadour"
+  },
+  {
+    "id": "j-turtle-bean",
+    "name": "Turtle Bean",
+    "description": "<div class=\"joker-description\"><span class=\"text-attention\">+5</span> hand size,<br>reduces by<br><span class=\"text-red\">1</span> every round</div>",
+    "rarity": 2,
+    "image": "turtle-bean.png",
+    "in-game-name": "j_turtle_bean"
+  },
+  {
+    "id": "j-vagabond",
+    "name": "Vagabond",
+    "description": "<div class=\"joker-description\">Create a <span class=\"text-purple\">Tarot</span> card<br>if hand is played<br>with <span class=\"text-money\">$4</span> or less</div>",
+    "rarity": 3,
+    "image": "vagabond.png",
+    "in-game-name": "j_vagabond"
+  },
+  {
+    "id": "j-vampire",
+    "name": "Vampire",
+    "description": "<div class=\"joker-description\">This Joker gains <span class=\"text-xmult text-red text-white pixel-corners-2x2\">X0.1</span> Mult<br>per scoring <span class=\"text-attention\">Enhanced card</span> played,<br>removes card <span class=\"text-attention\">Enhancement</span><br><span class=\"text-inactive\"></span></div>",
+    "rarity": 2,
+    "image": "vampire.png",
+    "in-game-name": "j_vampire"
+  },
+  {
+    "id": "j-walkie-talkie",
+    "name": "Walkie Talkie",
+    "description": "<div class=\"joker-description\">Each played <span class=\"text-attention\">10</span> or <span class=\"text-attention\">4</span><br>gives <span class=\"text-chips\">+10</span> Chips and<br><span class=\"text-mult\">+4</span> Mult when scored</div>",
+    "rarity": 1,
+    "image": "walkie-talkie.png",
+    "in-game-name": "j_walkie_talkie"
+  },
+  {
+    "id": "j-wee-joker",
+    "name": "Wee Joker",
+    "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"text-chips\">+8</span> Chips when each<br>played <span class=\"text-attention\">2</span> is scored<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 3,
+    "image": "wee-joker.png",
+    "in-game-name": "j_wee"
+  },
+  {
+    "id": "j-wily-joker",
+    "name": "Wily Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-chips\">+100</span> Chips if played<br>hand contains<br>a <span class=\"text-attention\">Three of a Kind</span></div>",
+    "rarity": 1,
+    "image": "wily-joker.png",
+    "in-game-name": "j_wily"
+  },
+  {
+    "id": "j-wrathful-joker",
+    "name": "Wrathful Joker",
+    "description": "<div class=\"joker-description\">Played cards with<br><span class=\"text-spades\">Spades</span> suit give<br><span class=\"text-mult\">+3</span> Mult when scored</div>",
+    "rarity": 1,
+    "image": "wrathful-joker.png",
+    "in-game-name": "j_wrathful_joker"
+  },
+  {
+    "id": "j-yorick",
+    "name": "Yorick",
+    "description": "<div class=\"joker-description\">This Joker gains<br><span class=\"text-xmult text-red text-white pixel-corners-2x2\">X1</span> Mult every <span class=\"text-attention\">23</span><br>cards discarded<br><span class=\"text-inactive\"></span></div>",
+    "rarity": 4,
+    "image": "yorick.png",
+    "in-game-name": "j_yorick"
+  },
+  {
+    "id": "j-zany-joker",
+    "name": "Zany Joker",
+    "description": "<div class=\"joker-description\"><span class=\"text-red\">+12</span> Mult if played<br>hand contains<br>a <span class=\"text-attention\">Three of a Kind</span></div>",
+    "rarity": 1,
+    "image": "zany-joker.png",
+    "in-game-name": "j_zany"
+  }
+]

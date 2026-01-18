@@ -1,0 +1,238 @@
+#card-grid-wrapper {
+  --card-width: 12rem;
+  --card-gap: 1rem;
+  --card-pad: 1rem;
+  --cols: 6;
+  position: relative;
+  z-index: 20;
+  width: fit-content;
+  margin: 1rem 0 1rem;
+}
+
+#card-grid-background {
+  position: absolute;
+  z-index: 0;
+  width: calc(
+    var(--cols) * var(--card-width) +
+    (var(--cols) - 1) * var(--card-gap) +
+    2 * var(--card-pad)
+  );
+  min-width: 12rem;
+  height: 100%;
+  min-height: calc(12rem * (93/69));
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.25);
+  inset: 0;
+  pointer-events: none;
+  transition: 200ms;
+}
+
+#card-grid {
+  z-index: 1;
+  display: flex;
+  width: calc(
+    var(--cols) * var(--card-width) +
+    (var(--cols) - 1) * var(--card-gap) +
+    2 * var(--card-pad)
+  );
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  padding: var(--card-pad);
+  margin: 0;
+  gap: var(--card-gap);
+  transition: 200ms;
+}
+
+@media screen and (max-width: 106rem) {
+  #card-grid-wrapper { --cols: 5; }
+}
+
+@media screen and (max-width: 93rem) {
+  #card-grid-wrapper { --cols: 4; }
+}
+
+@media screen and (max-width: 80rem) {
+  #card-grid-wrapper { --cols: 3; }
+}
+
+@media screen and (max-width: 67rem) {
+  #card-grid-wrapper { --cols: 2; }
+}
+
+@media screen and (max-width: 54rem) {
+  #card-grid-wrapper { --cols: 1; }
+}
+
+.card-cell {
+  position: relative;
+  z-index: 20;
+  display: grid;
+  width: 12rem;
+  aspect-ratio: 69/93;
+  filter: drop-shadow(
+    var(--parallax-shadow-x, 0px)
+    var(--parallax-shadow-y, 0px)
+    0rem
+    rgba(0, 0, 0, 0.35)
+  );
+  place-content: center;
+}
+
+.card-cell:hover {
+  z-index: 200;
+}
+
+/* Cards */
+.card {
+  position: relative;
+  z-index: 10;
+  width: 12rem;
+  aspect-ratio: 69/93;
+  background-image: url("/static/images/acrobat.webp");
+  background-size: cover;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 120ms ease-out;
+}
+
+.card::after {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 3.8125rem;
+  height: 3.8125rem;
+  background-image: url("/static/images/stikers/gold.png");
+  background-size: cover;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transform-origin: center;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Specific Jokers */
+#j-yorick::before,
+#j-canio::before,
+#j-triboulet::before,
+#j-chicot::before,
+#j-perkeo::before,
+#j-hologram::before{
+  position: absolute;
+  z-index: 20;
+  top: 0rem;
+  right: 0rem;
+  width: 12rem;
+  aspect-ratio: 69/93;
+  background-size: cover;
+  content: "";
+  filter: drop-shadow(
+    var(--parallax-shadow-x, 0px)
+    var(--parallax-shadow-y, 0px)
+    0rem
+    rgba(0, 0, 0, 0.35)
+  );
+  transform: translate(
+    var(--yorick-offset-x, 0px),
+    var(--yorick-offset-y, 0px)
+  ) rotateZ(calc(var(--yorick-tilt, 0deg) + var(--legendary-tilt, 0deg))) scale(var(--legendary-pulse, 1));
+  transform-origin: center;
+  will-change: transform;
+}
+
+#j-yorick::before {
+  background-image: url("/static/images/jokers/yorick-front.png");
+}
+
+#j-canio::before {
+  background-image: url("/static/images/jokers/canio-front.png");
+}
+
+#j-triboulet::before {
+  background-image: url("/static/images/jokers/triboulet-front.png");
+}
+
+#j-chicot::before {
+  background-image: url("/static/images/jokers/chicot-front.png");
+}
+
+#j-perkeo::before {
+  background-image: url("/static/images/jokers/perkeo-front.png");
+}
+
+#j-hologram::before {
+  background-blend-mode: screen;
+  background-image: url("/static/images/jokers/hologram-front.png"),
+    repeating-linear-gradient(0deg, rgba(0, 255, 220, 0.18) 0 1px, rgba(0, 0, 0, 0) 1px 4px);
+  filter: drop-shadow(0 0 1.25rem rgba(0, 220, 255, 0.55))
+          drop-shadow(0 0 2.5rem rgba(0, 255, 170, 0.35));
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(0deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(0deg, transparent, #000 12%, #000 88%, transparent);
+  opacity: 0.9;
+}
+
+#j-wee-joker {
+  width: calc(12rem * 0.7);
+}
+
+#j-half-joker {
+  aspect-ratio: 69/60;
+}
+
+#j-square-joker {
+  aspect-ratio: 1/1;
+}
+
+#j-photograph {
+  aspect-ratio: 69/78;
+}
+
+/* Stiker */
+.card.is-checked::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.card.sticker-pop::after {
+  animation: sticker-pop 220ms ease-out;
+}
+
+.card.sticker-pop-out::after {
+  animation: sticker-pop-out 260ms ease-in forwards;
+}
+
+@keyframes sticker-pop {
+  0% {
+    transform: scale(0.6);
+  }
+
+  60% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sticker-pop-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  60% {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}

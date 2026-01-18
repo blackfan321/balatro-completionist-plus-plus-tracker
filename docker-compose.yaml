@@ -1,0 +1,8 @@
+services:
+  balatro-completionist-plus-plus-tracker:
+    container_name: balatro-completionist-plus-plus-tracker
+    image: nginx:alpine
+    ports:
+      - "8087:80"
+    volumes:
+      - ".:/usr/share/nginx/html"
