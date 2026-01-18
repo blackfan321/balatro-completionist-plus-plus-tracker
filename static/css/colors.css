@@ -1,0 +1,105 @@
+/* Color list from the game */
+:root {
+  /* Base colors */
+  --c-blue:       #009dff;
+  --c-red:        #fe5f55;
+  --c-green:      #4bc292;
+  --c-pale-green: #56a887;
+  --c-orange:     #fda200;
+  --c-gold:       #eac058;
+  --c-yellow:     #ffff00;
+  --c-white:      #ffffff;
+  --c-purple:     #8867a5;
+  --c-black:      #374244;
+  --c-l-black:    #4f6367;
+  --c-grey:       #5f7377;
+  --c-clear:      #00000000;
+
+  /* Semantic colors */
+  --c-mult:         #fe5f55;
+  --c-chips:        #009dff;
+  --c-money:        #f3b958;
+  --c-xmult:        #fe5f55;
+  --c-filter:       #ff9a00;
+  --c-important:    #ff9a00;
+  --c-chance:       #4bc292;
+  --c-joker-grey:   #bfc7d5;
+  --c-voucher:      #cb724c;
+  --c-booster:      #646eb7;
+  --c-edition:      #ffffff;
+  --c-dark-edition: #000000;
+  --c-eternal:      #c75985;
+  --c-perishable:   #4f5da1;
+  --c-rental:       #b18f43;
+
+  /* Rarity */
+  --c-rarity-common:    #009dff;
+  --c-rarity-uncommon:  #4bc292;
+  --c-rarity-rare:      #fe5f55;
+  --c-rarity-legendary: #b26cbb;
+
+  /* Suit */
+  --c-suit-hearts:   #fe5f55;
+  --c-suit-diamonds: #fe5f55;
+  --c-suit-spades:   #374649;
+  --c-suit-clubs:    #424e54;
+
+  /* Blind */
+  --c-blind-small: #50846e;
+  --c-blind-big:   #50846e;
+  --c-blind-boss:  #b44430;
+  --c-blind-won:   #4f6367;
+
+  /* Hand */
+  --c-hand-1: #efefef;
+  --c-hand-2: #95acff;
+  --c-hand-3: #65efaf;
+  --c-hand-4: #fae37e;
+  --c-hand-5: #ffc052;
+  --c-hand-6: #f87d75;
+  --c-hand-7: #caa0ef;
+
+  /* UI */
+  --c-ui-text-light: #ffffff;
+  --c-ui-text-dark: #4f6367;
+  --c-ui-text-inactive: #88888899;
+  --c-ui-background-light: #b8d8d8;
+  --c-ui-background-white: #ffffff;
+  --c-ui-background-dark: #7a9e9f;
+  --c-ui-background-inactive: #666666ff;
+  --c-ui-outline-light: #d8d8d8;
+  --c-ui-outline-light-trans: #d8d8d866;
+  --c-ui-outline-dark: #7a9e9f;
+  --c-ui-transparent-light: #eeeeee22;
+  --c-ui-transparent-dark: #22222222;
+  --c-ui-hover: #00000055;
+
+  /* DYI UI */
+  --c-dyn-ui-main: #374244;
+  --c-dyn-ui-dark: #374244;
+  --c-dyn-ui-boss-main: #374244;
+  --c-dyn-ui-boss-dark: #374244;
+  --c-dyn-ui-boss-pale: #374244;
+
+  /* Set */
+  --c-set-default: #cdd9dc;
+  --c-set-enhanced: #cdd9dc;
+  --c-set-joker: #424e54;
+  --c-set-tarot: #424e54;
+  --c-set-planet: #424e54;
+  --c-set-spectral: #424e54;
+  --c-set-voucher: #424e54;
+
+  /* Secondery Set */
+  --c-secondary-set-default: #9bb6bdff;
+  --c-secondary-set-enhanced: #8389ddff;
+  --c-secondary-set-joker: #708b91;
+  --c-secondary-set-tarot: #a782d1;
+  --c-secondary-set-planet: #13afce;
+  --c-secondary-set-spectral: #4584fa;
+  --c-secondary-set-voucher: #fd682b;
+  --c-secondary-set-edition: #4ca893;
+
+  /* Custom */
+  --c-ui-tooltip-background: #3F4A4D;
+}

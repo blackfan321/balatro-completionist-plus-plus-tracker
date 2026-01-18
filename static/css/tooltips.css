@@ -1,0 +1,106 @@
+/* Balatro Joker Description Styles - Tooltip specific only */
+/* Base color classes */
+.text-red    { color: var(--c-red); }
+.text-blue   { color: var(--c-blue); }
+.text-green  { color: var(--c-green); }
+.text-purple { color: var(--c-purple); }
+.text-white  { color: var(--c-white); }
+
+/* Semantic color classes */
+.text-money        { color: var(--c-money); }
+.text-chips        { color: var(--c-chips); }
+.text-mult         { color: var(--c-mult); }
+.text-attention    { color: var(--c-important); }
+.text-inactive     { color: var(--c-ui-text-inactive); }
+.text-dark-edition { color: var(--c-dark-edition); }
+.text-spectral     { color: var(--c-spectral); }
+.text-tarot        { color: var(--c-tarot); }
+.text-planet       { color: var(--c-planet); }
+.text-xmult        { color: var(--c-ui-text-light); }
+.text-variable     { color: var(--c-important); }
+
+/* Suit colors */
+.text-hearts   { color: var(--c-suit-hearts); }
+.text-diamonds { color: var(--c-suit-diamonds); }
+.text-clubs    { color: var(--c-suit-clubs); }
+.text-spades   { color: var(--c-suit-spades); }
+
+/* Special formatting classes */
+.text-xmult {
+  padding: 0 0.125rem 0 0.25rem; /* Font glyphs have different sizes. */
+  background-color: var(--c-xmult);
+  text-align: center;
+}
+
+.card-wrapper:hover + .tooltip-wrapper {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
+.tooltip-wrapper {
+  position: absolute;
+  z-index: 200;
+  top: 50%;
+  right: calc(100% + 0.75rem);
+  min-width: 12rem;
+  padding: 0.25rem;
+  background: var(--c-ui-outline-light);
+  color: var(--c-ui-background-white);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-50%) scale(0.98);
+  transform-origin: right center;
+  transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.tooltip {
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: var(--c-ui-tooltip-background);
+  gap: 0.5rem;
+}
+
+.tooltip-title {
+  display: grid;
+  font-size: 2rem;
+  letter-spacing: 0.1875rem;
+  place-items: center;
+  text-shadow: 0 0.125rem rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+
+.tooltip-description {
+  display: flex;
+  min-height: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color:var(--c-ui-background-white);
+  color: var(--c-ui-text-dark);
+  font-size: 1.25rem;
+  text-align: center;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.tooltip-rarity {
+  display: flex;
+  width: 7.5rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
+  margin: 0 auto;
+  color: var(--c-ui-text-light);
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0 0.125rem rgba(0, 0, 0, 0.5);
+}
+
+.rarity-common    { background-color: var(--c-rarity-common); }
+.rarity-uncommon  { background-color: var(--c-rarity-uncommon); }
+.rarity-rare      { background-color: var(--c-rarity-rare); }
+.rarity-legendary { background-color: var(--c-rarity-legendary); }
