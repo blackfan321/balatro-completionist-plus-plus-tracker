@@ -579,7 +579,7 @@ function initBackgroundShader() {
     return;
   }
 
-  fetch("${staticDir}shaders/background.fs")
+  fetch("./static/shaders/background.fs")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Failed to load shader source.");

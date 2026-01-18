@@ -90,7 +90,7 @@
   z-index: 10;
   width: 12rem;
   aspect-ratio: 69/93;
-  background-image: url("./static/images/acrobat.webp");
+  background-image: url("../images/acrobat.webp");
   background-size: cover;
   cursor: pointer;
   transform-style: preserve-3d;
@@ -103,7 +103,7 @@
   right: 0.75rem;
   width: 3.8125rem;
   height: 3.8125rem;
-  background-image: url("./static/images/stikers/gold.png");
+  background-image: url("../images/stikers/gold.png");
   background-size: cover;
   content: "";
   opacity: 0;
@@ -142,28 +142,28 @@
 }
 
 #j-yorick::before {
-  background-image: url("./static/images/jokers/yorick-front.png");
+  background-image: url("../images/jokers/yorick-front.png");
 }
 
 #j-canio::before {
-  background-image: url("./static/images/jokers/canio-front.png");
+  background-image: url("../images/jokers/canio-front.png");
 }
 
 #j-triboulet::before {
-  background-image: url("./static/images/jokers/triboulet-front.png");
+  background-image: url("../images/jokers/triboulet-front.png");
 }
 
 #j-chicot::before {
-  background-image: url("./static/images/jokers/chicot-front.png");
+  background-image: url("../images/jokers/chicot-front.png");
 }
 
 #j-perkeo::before {
-  background-image: url("./static/images/jokers/perkeo-front.png");
+  background-image: url("../images/jokers/perkeo-front.png");
 }
 
 #j-hologram::before {
   background-blend-mode: screen;
-  background-image: url("./static/images/jokers/hologram-front.png"),
+  background-image: url("../images/jokers/hologram-front.png"),
     repeating-linear-gradient(0deg, rgba(0, 255, 220, 0.18) 0 1px, rgba(0, 0, 0, 0) 1px 4px);
   filter: drop-shadow(0 0 1.25rem rgba(0, 220, 255, 0.55))
           drop-shadow(0 0 2.5rem rgba(0, 255, 170, 0.35));
