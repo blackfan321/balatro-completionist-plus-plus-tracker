@@ -32,7 +32,7 @@ git clone https://github.com/blackfan321/balatro-completionist-plus-plus-tracker
 2. Start the application using `docker-compose`:
 
 ```sh
-docker compose up
+docker compose up -d
 ```
 
 3. Open http://localhost:8087 in your browser.
