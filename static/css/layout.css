@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'pixelFont';
-  src: url('/static/fonts/m6x11plus.ttf') format('truetype');
+  src: url('../fonts/m6x11plus.ttf') format('truetype');
 }
 
 html {
