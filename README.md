@@ -27,6 +27,7 @@ Open https://blackfan321.github.io/balatro-completionist-plus-plus-tracker, then
 
 ```sh
 git clone https://github.com/blackfan321/balatro-completionist-plus-plus-tracker.git
+cd balatro-completionist-plus-plus-tracker
 ```
 
 2. Start the application using `docker-compose`:
