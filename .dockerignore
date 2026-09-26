@@ -1,0 +1,14 @@
+.git
+.github
+.gitignore
+README.md
+docker-compose.yaml
+Dockerfile
+.dockerignore
+flake.nix
+flake.lock
+.envrc
+justfile
+nix
+.pre-commit-config.yaml
+*.md

@@ -1,8 +1,22 @@
 services:
   balatro-completionist-plus-plus-tracker:
     container_name: balatro-completionist-plus-plus-tracker
-    image: nginx:alpine
+    image: balatro-completionist-plus-plus-tracker:2.1.0
+    build: .
     ports:
-      - "8087:80"
-    volumes:
-      - ".:/usr/share/nginx/html"
+      - "8087:8080"
+    restart: unless-stopped
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "-qO-",
+          "-Y",
+          "off",
+          "http://127.0.0.1:8080/__miniserve_internal/healthcheck",
+        ]
+      interval: 5s
+      timeout: 2s
+      start_period: 10s
+      retries: 3
